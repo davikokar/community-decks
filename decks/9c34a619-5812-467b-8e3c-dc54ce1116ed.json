@@ -1,0 +1,169 @@
+{
+  "deck_id": "9c34a619-5812-467b-8e3c-dc54ce1116ed",
+  "author_hash": "5bd65219bbcc5f709688fcbade25449b74397ad285c34515d3dd8ac784af8369",
+  "title": "Tedesco - Riunioni 01",
+  "description": "Imparare il tedesco.",
+  "category": "default_languages",
+  "cards": [
+    {
+      "question": "Opinione<br /><i>Vorrei esprimere la mia opinione.</i>",
+      "answer": "die Meinung<br /><i>seine Meinung äußern<br />Ich möchte meine Meinung dazu äußern.</i>"
+    },
+    {
+      "question": "Punto di vista<br /><i>Capisco il tuo punto di vista.</i>",
+      "answer": "die Sichtweise<br /><i>eine Sichtweise nachvollziehen<br />Ich kann deine Sichtweise nachvollziehen.</i>"
+    },
+    {
+      "question": "Prospettiva<br /><i>Dobbiamo considerare anche un'altra prospettiva.</i>",
+      "answer": "die Perspektive<br /><i>eine andere Perspektive berücksichtigen<br />Wir müssen auch eine andere Perspektive berücksichtigen.</i>"
+    },
+    {
+      "question": "Disaccordo<br /><i>Non siamo d'accordo su questo punto.</i>",
+      "answer": "die Meinungsverschiedenheit<br /><i>eine Meinungsverschiedenheit haben<br />Wir haben in diesem Punkt eine Meinungsverschiedenheit.</i>"
+    },
+    {
+      "question": "Consenso<br /><i>Abbiamo raggiunto un consenso.</i>",
+      "answer": "der Konsens<br /><i>einen Konsens finden<br />Wir haben einen Konsens gefunden.</i>"
+    },
+    {
+      "question": "Argomento<br /><i>Vorrei aggiungere un altro argomento.</i>",
+      "answer": "das Argument<br /><i>ein Argument vorbringen<br />Ich möchte noch ein Argument vorbringen.</i>"
+    },
+    {
+      "question": "Motivazione<br /><i>Abbiamo spiegato le ragioni della decisione.</i>",
+      "answer": "die Begründung<br /><i>eine Entscheidung begründen<br />Wir haben die Entscheidung begründet.</i>"
+    },
+    {
+      "question": "Obiezione<br /><i>Vorrei sollevare un'obiezione.</i>",
+      "answer": "der Einwand<br /><i>einen Einwand vorbringen<br />Ich möchte einen Einwand vorbringen.</i>"
+    },
+    {
+      "question": "Dubbio<br /><i>Ho dei dubbi su questa soluzione.</i>",
+      "answer": "der Zweifel<br /><i>Zweifel an einer Lösung haben<br />Ich habe Zweifel an dieser Lösung.</i>"
+    },
+    {
+      "question": "Preoccupazione<br /><i>Vorrei esprimere una preoccupazione.</i>",
+      "answer": "das Bedenken<br /><i>ein Bedenken äußern<br />Ich möchte ein Bedenken äußern.</i>"
+    },
+    {
+      "question": "Chiarimento<br /><i>Vorrei chiedere un chiarimento.</i>",
+      "answer": "die Klärung<br /><i>um Klärung bitten<br />Ich möchte um eine Klärung bitten.</i>"
+    },
+    {
+      "question": "Malinteso<br /><i>Abbiamo chiarito il malinteso.</i>",
+      "answer": "das Missverständnis<br /><i>ein Missverständnis klären<br />Wir haben das Missverständnis geklärt.</i>"
+    },
+    {
+      "question": "Supposizione<br /><i>Abbiamo fatto un'ipotesi sbagliata.</i>",
+      "answer": "die Annahme<br /><i>eine falsche Annahme treffen<br />Wir haben eine falsche Annahme getroffen.</i>"
+    },
+    {
+      "question": "Presupposto<br /><i>Dobbiamo verificare questo presupposto.</i>",
+      "answer": "die Voraussetzung<br /><i>eine Voraussetzung überprüfen<br />Wir müssen diese Voraussetzung überprüfen.</i>"
+    },
+    {
+      "question": "Aspettativa<br /><i>Dobbiamo chiarire le aspettative.</i>",
+      "answer": "die Erwartung<br /><i>Erwartungen klären<br />Wir müssen die Erwartungen klären.</i>"
+    },
+    {
+      "question": "Esigenza<br /><i>Dobbiamo comprendere meglio le esigenze del cliente.</i>",
+      "answer": "das Bedürfnis<br /><i>die Bedürfnisse des Kunden verstehen<br />Wir müssen die Bedürfnisse des Kunden besser verstehen.</i>"
+    },
+    {
+      "question": "Alternativa<br /><i>Dovremmo valutare un'alternativa.</i>",
+      "answer": "die Alternative<br /><i>eine Alternative prüfen<br />Wir sollten eine Alternative prüfen.</i>"
+    },
+    {
+      "question": "Suggerimento<br /><i>Vorrei dare un suggerimento.</i>",
+      "answer": "die Anregung<br /><i>eine Anregung geben<br />Ich möchte eine Anregung geben.</i>"
+    },
+    {
+      "question": "Proposta di soluzione<br /><i>Abbiamo discusso diverse proposte di soluzione.</i>",
+      "answer": "der Lösungsvorschlag<br /><i>Lösungsvorschläge diskutieren<br />Wir haben verschiedene Lösungsvorschläge diskutiert.</i>"
+    },
+    {
+      "question": "Approccio<br /><i>Dovremmo riconsiderare il nostro approccio.</i>",
+      "answer": "der Ansatz<br /><i>einen Ansatz überdenken<br />Wir sollten unseren Ansatz noch einmal überdenken.</i>"
+    },
+    {
+      "question": "Procedura<br /><i>Abbiamo concordato la procedura da seguire.</i>",
+      "answer": "das Vorgehen<br /><i>das weitere Vorgehen abstimmen<br />Wir haben das weitere Vorgehen abgestimmt.</i>"
+    },
+    {
+      "question": "Modo di procedere<br /><i>Propongo di procedere in modo diverso.</i>",
+      "answer": "die Vorgehensweise<br /><i>eine andere Vorgehensweise vorschlagen<br />Ich schlage eine andere Vorgehensweise vor.</i>"
+    },
+    {
+      "question": "Compromesso<br /><i>Dobbiamo trovare un compromesso accettabile per tutti.</i>",
+      "answer": "der Kompromiss<br /><i>einen Kompromiss finden<br />Wir müssen einen Kompromiss finden, der für alle akzeptabel ist.</i>"
+    },
+    {
+      "question": "Prioritizzazione<br /><i>Dobbiamo dare priorità alle attività più importanti.</i>",
+      "answer": "die Priorisierung<br /><i>Aufgaben priorisieren<br />Wir müssen die wichtigsten Aufgaben priorisieren.</i>"
+    },
+    {
+      "question": "Urgenza<br /><i>Dobbiamo valutare l'urgenza del problema.</i>",
+      "answer": "die Dringlichkeit<br /><i>die Dringlichkeit einschätzen<br />Wir müssen die Dringlichkeit des Problems einschätzen.</i>"
+    },
+    {
+      "question": "Fattibilità<br /><i>Dobbiamo verificare la fattibilità tecnica.</i>",
+      "answer": "die Machbarkeit<br /><i>die technische Machbarkeit prüfen<br />Wir müssen die technische Machbarkeit prüfen.</i>"
+    },
+    {
+      "question": "Impatto<br /><i>Dobbiamo valutare l'impatto della modifica.</i>",
+      "answer": "die Auswirkung<br /><i>die Auswirkungen einer Änderung bewerten<br />Wir müssen die Auswirkungen der Änderung bewerten.</i>"
+    },
+    {
+      "question": "Conseguenza<br /><i>Dobbiamo considerare le possibili conseguenze.</i>",
+      "answer": "die Folge<br /><i>mögliche Folgen berücksichtigen<br />Wir müssen die möglichen Folgen berücksichtigen.</i>"
+    },
+    {
+      "question": "Sovrapposizione<br /><i>Abbiamo individuato una sovrapposizione tra le attività.</i>",
+      "answer": "die Überschneidung<br /><i>eine Überschneidung feststellen<br />Wir haben eine Überschneidung zwischen den Aufgaben festgestellt.</i>"
+    },
+    {
+      "question": "Ostacolo<br /><i>Dobbiamo eliminare questo ostacolo.</i>",
+      "answer": "das Hindernis<br /><i>ein Hindernis beseitigen<br />Wir müssen dieses Hindernis beseitigen.</i>"
+    },
+    {
+      "question": "Blocco<br /><i>Questo problema sta bloccando il nostro lavoro.</i>",
+      "answer": "die Blockade<br /><i>eine Blockade verursachen<br />Dieses Problem verursacht eine Blockade in unserer Arbeit.</i>"
+    },
+    {
+      "question": "Responsabilità condivisa<br /><i>Dobbiamo chiarire chi è responsabile di cosa.</i>",
+      "answer": "die Zuständigkeit<br /><i>Zuständigkeiten klären<br />Wir müssen klären, wer wofür zuständig ist.</i>"
+    },
+    {
+      "question": "Distribuzione dei compiti<br /><i>Abbiamo concordato la distribuzione dei compiti.</i>",
+      "answer": "die Aufgabenverteilung<br /><i>die Aufgabenverteilung abstimmen<br />Wir haben die Aufgabenverteilung abgestimmt.</i>"
+    },
+    {
+      "question": "Punto all'ordine del giorno<br /><i>Vorrei aggiungere un punto all'ordine del giorno.</i>",
+      "answer": "der Tagesordnungspunkt<br /><i>einen Tagesordnungspunkt hinzufügen<br />Ich möchte einen Tagesordnungspunkt hinzufügen.</i>"
+    },
+    {
+      "question": "Verbale<br /><i>Abbiamo documentato le decisioni nel verbale.</i>",
+      "answer": "das Protokoll<br /><i>Entscheidungen im Protokoll festhalten<br />Wir haben die Entscheidungen im Protokoll festgehalten.</i>"
+    },
+    {
+      "question": "Riepilogo<br /><i>Vorrei riassumere brevemente i punti principali.</i>",
+      "answer": "die Zusammenfassung<br /><i>die wichtigsten Punkte zusammenfassen<br />Ich möchte die wichtigsten Punkte kurz zusammenfassen.</i>"
+    },
+    {
+      "question": "Prossimi passi<br /><i>Dobbiamo concordare i prossimi passi.</i>",
+      "answer": "die nächsten Schritte<br /><i>die nächsten Schritte festlegen<br />Wir müssen die nächsten Schritte festlegen.</i>"
+    },
+    {
+      "question": "Questione aperta<br /><i>Dobbiamo chiarire le questioni ancora aperte.</i>",
+      "answer": "der offene Punkt<br /><i>offene Punkte klären<br />Wir müssen die offenen Punkte noch klären.</i>"
+    },
+    {
+      "question": "Decisione definitiva<br /><i>Dobbiamo prendere una decisione definitiva entro venerdì.</i>",
+      "answer": "die endgültige Entscheidung<br /><i>eine endgültige Entscheidung treffen<br />Wir müssen bis Freitag eine endgültige Entscheidung treffen.</i>"
+    },
+    {
+      "question": "Follow-up<br /><i>Organizzerò un incontro di follow-up.</i>",
+      "answer": "die Nachbesprechung<br /><i>eine Nachbesprechung organisieren<br />Ich werde eine Nachbesprechung organisieren.</i>"
+    }
+  ]
+}
