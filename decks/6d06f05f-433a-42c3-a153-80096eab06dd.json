@@ -1,0 +1,169 @@
+{
+  "deck_id": "6d06f05f-433a-42c3-a153-80096eab06dd",
+  "author_hash": "5bd65219bbcc5f709688fcbade25449b74397ad285c34515d3dd8ac784af8369",
+  "title": "Tedesco - Industria 01",
+  "description": "Imparare il tedesco.",
+  "category": "default_languages",
+  "cards": [
+    {
+      "question": "Requisito preliminare<br /><i>Abbiamo chiarito i prerequisiti.</i>",
+      "answer": "die Voraussetzung<br /><i>die Voraussetzungen klären<br />Wir haben die Voraussetzungen geklärt.</i>"
+    },
+    {
+      "question": "Vincolo<br /><i>Dobbiamo tenere conto dei vincoli.</i>",
+      "answer": "die Einschränkung<br /><i>Einschränkungen berücksichtigen<br />Wir müssen die Einschränkungen berücksichtigen.</i>"
+    },
+    {
+      "question": "Dipendenza<br /><i>Abbiamo identificato una dipendenza.</i>",
+      "answer": "die Abhängigkeit<br /><i>eine Abhängigkeit erkennen<br />Wir haben eine Abhängigkeit erkannt.</i>"
+    },
+    {
+      "question": "Interfaccia<br /><i>Abbiamo definito l'interfaccia.</i>",
+      "answer": "die Schnittstelle<br /><i>die Schnittstelle definieren<br />Wir haben die Schnittstelle definiert.</i>"
+    },
+    {
+      "question": "Implementazione<br /><i>Abbiamo completato l'implementazione.</i>",
+      "answer": "die Implementierung<br /><i>die Implementierung abschließen<br />Wir haben die Implementierung abgeschlossen.</i>"
+    },
+    {
+      "question": "Adattamento<br /><i>Abbiamo effettuato un adattamento.</i>",
+      "answer": "die Anpassung<br /><i>eine Anpassung vornehmen<br />Wir haben eine Anpassung vorgenommen.</i>"
+    },
+    {
+      "question": "Estensione<br /><i>Abbiamo implementato un'estensione.</i>",
+      "answer": "die Erweiterung<br /><i>eine Erweiterung implementieren<br />Wir haben eine Erweiterung implementiert.</i>"
+    },
+    {
+      "question": "Modifica<br /><i>Abbiamo apportato una modifica.</i>",
+      "answer": "die Änderung<br /><i>eine Änderung vornehmen<br />Wir haben eine Änderung vorgenommen.</i>"
+    },
+    {
+      "question": "Correzione di errore<br /><i>Abbiamo effettuato una correzione.</i>",
+      "answer": "die Fehlerbehebung<br /><i>eine Fehlerbehebung durchführen<br />Wir haben eine Fehlerbehebung durchgeführt.</i>"
+    },
+    {
+      "question": "Errore<br /><i>Abbiamo individuato un errore.</i>",
+      "answer": "der Fehler<br /><i>einen Fehler feststellen<br />Wir haben einen Fehler festgestellt.</i>"
+    },
+    {
+      "question": "Guasto<br /><i>Abbiamo risolto il guasto.</i>",
+      "answer": "die Störung<br /><i>eine Störung beheben<br />Wir haben die Störung behoben.</i>"
+    },
+    {
+      "question": "Comportamento<br /><i>Abbiamo osservato un comportamento inatteso.</i>",
+      "answer": "das Verhalten<br /><i>ein unerwartetes Verhalten beobachten<br />Wir haben ein unerwartetes Verhalten beobachtet.</i>"
+    },
+    {
+      "question": "Verifica<br /><i>Abbiamo effettuato una verifica.</i>",
+      "answer": "die Überprüfung<br /><i>eine Überprüfung durchführen<br />Wir haben eine Überprüfung durchgeführt.</i>"
+    },
+    {
+      "question": "Approvazione<br /><i>Abbiamo ricevuto l'approvazione.</i>",
+      "answer": "die Freigabe<br /><i>eine Freigabe erhalten<br />Wir haben die Freigabe erhalten.</i>"
+    },
+    {
+      "question": "Convalida<br /><i>Abbiamo completato la validazione.</i>",
+      "answer": "die Validierung<br /><i>die Validierung abschließen<br />Wir haben die Validierung abgeschlossen.</i>"
+    },
+    {
+      "question": "Conferma<br /><i>Abbiamo ricevuto una conferma.</i>",
+      "answer": "die Bestätigung<br /><i>eine Bestätigung erhalten<br />Wir haben eine Bestätigung erhalten.</i>"
+    },
+    {
+      "question": "Tracciabilità<br /><i>Dobbiamo garantire la tracciabilità.</i>",
+      "answer": "die Rückverfolgbarkeit<br /><i>die Rückverfolgbarkeit sicherstellen<br />Wir müssen die Rückverfolgbarkeit sicherstellen.</i>"
+    },
+    {
+      "question": "Documentazione<br /><i>Abbiamo aggiornato la documentazione.</i>",
+      "answer": "die Dokumentation<br /><i>die Dokumentation aktualisieren<br />Wir haben die Dokumentation aktualisiert.</i>"
+    },
+    {
+      "question": "Specificazione<br /><i>Abbiamo elaborato una specificazione.</i>",
+      "answer": "die Spezifikation<br /><i>eine Spezifikation erstellen<br />Wir haben eine Spezifikation erstellt.</i>"
+    },
+    {
+      "question": "Ambito<br /><i>Abbiamo definito l'ambito del progetto.</i>",
+      "answer": "der Umfang<br /><i>den Projektumfang festlegen<br />Wir haben den Projektumfang festgelegt.</i>"
+    },
+    {
+      "question": "Stato di avanzamento<br /><i>Abbiamo discusso lo stato di avanzamento.</i>",
+      "answer": "der Stand<br /><i>den aktuellen Stand besprechen<br />Wir haben den aktuellen Stand besprochen.</i>"
+    },
+    {
+      "question": "Ritardo<br /><i>Abbiamo comunicato il ritardo.</i>",
+      "answer": "die Verzögerung<br /><i>eine Verzögerung melden<br />Wir haben die Verzögerung gemeldet.</i>"
+    },
+    {
+      "question": "Scostamento<br /><i>Abbiamo individuato uno scostamento.</i>",
+      "answer": "die Abweichung<br /><i>eine Abweichung feststellen<br />Wir haben eine Abweichung festgestellt.</i>"
+    },
+    {
+      "question": "Stima<br /><i>Abbiamo fatto una stima dell'impegno necessario.</i>",
+      "answer": "die Schätzung<br /><i>den Aufwand schätzen<br />Wir haben den Aufwand geschätzt.</i>"
+    },
+    {
+      "question": "Valutazione<br /><i>Abbiamo effettuato una valutazione.</i>",
+      "answer": "die Bewertung<br /><i>eine Bewertung vornehmen<br />Wir haben eine Bewertung vorgenommen.</i>"
+    },
+    {
+      "question": "Chiarimento<br /><i>Abbiamo chiarito le questioni aperte.</i>",
+      "answer": "die Klärung<br /><i>offene Fragen klären<br />Wir haben die offenen Fragen geklärt.</i>"
+    },
+    {
+      "question": "Coordinamento<br /><i>Abbiamo coordinato le attività.</i>",
+      "answer": "die Abstimmung<br /><i>die Aktivitäten abstimmen<br />Wir haben die Aktivitäten abgestimmt.</i>"
+    },
+    {
+      "question": "Accordo comune<br /><i>Abbiamo raggiunto un'intesa.</i>",
+      "answer": "die Einigung<br /><i>eine Einigung erzielen<br />Wir haben eine Einigung erzielt.</i>"
+    },
+    {
+      "question": "Proposta<br /><i>Ho presentato una proposta.</i>",
+      "answer": "der Vorschlag<br /><i>einen Vorschlag machen<br />Ich habe einen Vorschlag gemacht.</i>"
+    },
+    {
+      "question": "Obiezione<br /><i>Ho sollevato un'obiezione.</i>",
+      "answer": "der Einwand<br /><i>einen Einwand erheben<br />Ich habe einen Einwand erhoben.</i>"
+    },
+    {
+      "question": "Preoccupazione<br /><i>Ho espresso le mie preoccupazioni.</i>",
+      "answer": "die Bedenken<br /><i>Bedenken äußern<br />Ich habe meine Bedenken geäußert.</i>"
+    },
+    {
+      "question": "Compromesso<br /><i>Abbiamo trovato un compromesso.</i>",
+      "answer": "der Kompromiss<br /><i>einen Kompromiss finden<br />Wir haben einen Kompromiss gefunden.</i>"
+    },
+    {
+      "question": "Sollecito<br /><i>Ho chiesto un aggiornamento.</i>",
+      "answer": "die Nachfrage<br /><i>noch einmal nachfragen<br />Ich habe noch einmal nachgefragt.</i>"
+    },
+    {
+      "question": "Incarico<br /><i>Ho ricevuto un incarico.</i>",
+      "answer": "der Auftrag<br /><i>einen Auftrag erhalten<br />Ich habe einen Auftrag erhalten.</i>"
+    },
+    {
+      "question": "Responsabile<br /><i>Abbiamo individuato il responsabile.</i>",
+      "answer": "der Verantwortliche / die Verantwortliche<br /><i>die verantwortliche Person bestimmen<br />Wir haben die verantwortliche Person bestimmt.</i>"
+    },
+    {
+      "question": "Disponibilità<br /><i>Abbiamo verificato la disponibilità.</i>",
+      "answer": "die Verfügbarkeit<br /><i>die Verfügbarkeit prüfen<br />Wir haben die Verfügbarkeit geprüft.</i>"
+    },
+    {
+      "question": "Affidabilità<br /><i>Abbiamo migliorato l'affidabilità del sistema.</i>",
+      "answer": "die Zuverlässigkeit<br /><i>die Zuverlässigkeit verbessern<br />Wir haben die Zuverlässigkeit des Systems verbessert.</i>"
+    },
+    {
+      "question": "Manutenzione<br /><i>Abbiamo effettuato la manutenzione.</i>",
+      "answer": "die Wartung<br /><i>eine Wartung durchführen<br />Wir haben eine Wartung durchgeführt.</i>"
+    },
+    {
+      "question": "Messa in esercizio<br /><i>Abbiamo messo in funzione il sistema.</i>",
+      "answer": "die Inbetriebnahme<br /><i>ein System in Betrieb nehmen<br />Wir haben das System in Betrieb genommen.</i>"
+    },
+    {
+      "question": "Consegna<br /><i>Abbiamo effettuato la consegna nei tempi previsti.</i>",
+      "answer": "die Lieferung<br /><i>die Lieferung termingerecht durchführen<br />Wir haben die Lieferung termingerecht durchgeführt.</i>"
+    }
+  ]
+}
