@@ -1,0 +1,233 @@
+{
+  "deck_id": "11dc6cbe-9c4d-4a7f-a73a-fe719ce6cdaf",
+  "author_hash": "5bd65219bbcc5f709688fcbade25449b74397ad285c34515d3dd8ac784af8369",
+  "title": "Tedesco - Lavoro 01",
+  "description": "Imparare il tedesco.",
+  "category": "default_languages",
+  "cards": [
+    {
+      "question": "Analisi<br /><i>Ho eseguito un'analisi</i>",
+      "answer": "die Analyse<br /><i>eine Analyse durchführen<br />Ich habe eine Analyse durchgeführt</i>"
+    },
+    {
+      "question": "Esperienza<br /><i>Abbiamo raccolto esperienza</i>",
+      "answer": "die Erfahrung<br /><i>Erfahrung sammeln<br />Wir haben Erfahrung gesammelt</i>"
+    },
+    {
+      "question": "Effetto<br /><i>Ho visto un effetto</i>",
+      "answer": "die Wirkung<br /><i>eine Wirkung zeigen<br />Das hat eine Wirkung gezeigt. / Ich habe eine Wirkung gesehen.</i>"
+    },
+    {
+      "question": "Causa<br /><i>Abbiamo esaminato la causa.</i>",
+      "answer": "die Ursache<br /><i>die Ursache untersuchen<br />Wir haben die Ursache untersucht.</i>"
+    },
+    {
+      "question": "Possibilità<br /><i>Ho sfruttato l'opportunità.</i>",
+      "answer": "die Möglichkeit<br /><i>eine Möglichkeit nutzen<br />Ich habe die Möglichkeit genutzt.</i>"
+    },
+    {
+      "question": "Rischio<br /><i>Abbiamo corso un rischio.</i>",
+      "answer": "das Risiko<br /><i>ein Risiko eingehen<br />Wir sind ein Risiko eingegangen.</i>"
+    },
+    {
+      "question": "Struttura<br /><i>Ho modificato la struttura.</i>",
+      "answer": "die Struktur<br /><i>die Struktur verändern<br />Ich habe die Struktur verändert.</i>"
+    },
+    {
+      "question": "Confronto<br /><i>Abbiamo fatto un confronto.</i>",
+      "answer": "der Vergleich<br /><i>einen Vergleich ziehen<br />Wir haben einen Vergleich gezogen.</i>"
+    },
+    {
+      "question": "Vantaggio<br /><i>Abbiamo sfruttato un vantaggio.</i>",
+      "answer": "der Vorteil<br /><i>einen Vorteil bieten<br />Ich habe einen Vorteil gesehen. / Wir haben einen Vorteil genutzt.</i>"
+    },
+    {
+      "question": "Svantaggio<br /><i>Ho notato uno svantaggio.</i>",
+      "answer": "der Nachteil<br /><i>einen Nachteil mit sich bringen<br />Ich habe einen Nachteil bemerkt.</i>"
+    },
+    {
+      "question": "Problema<br /><i>Abbiamo risolto il problema.</i>",
+      "answer": "das Problem<br /><i>das Problem lösen<br />Wir haben das Problem gelöst.</i>"
+    },
+    {
+      "question": "Soluzione<br /><i>Ho trovato una soluzione.</i>",
+      "answer": "die Lösung<br /><i>eine Lösung finden<br />Ich habe eine Lösung gefunden.</i>"
+    },
+    {
+      "question": "Motivo<br /><i>Abbiamo fornito una ragione.</i>",
+      "answer": "der Grund<br /><i>einen Grund nennen<br />Wir haben einen Grund genannt.</i>"
+    },
+    {
+      "question": "Risultato<br /><i>Ho fornito un risultato.</i>",
+      "answer": "das Ergebnis<br /><i>ein Ergebnis liefern<br />Ich habe ein Ergebnis geliefert.</i>"
+    },
+    {
+      "question": "Sfida<br /><i>Abbiamo accettato la sfida.</i>",
+      "answer": "die Herausforderung<br /><i>die Herausforderung annehmen<br />Wir haben die Herausforderung angenommen.</i>"
+    },
+    {
+      "question": "Decisione<br /><i>Ho preso una decisione.</i>",
+      "answer": "die Entscheidung<br /><i>eine Entscheidung treffen<br />Ich habe eine Entscheidung getroffen.</i>"
+    },
+    {
+      "question": "Risorsa<br /><i>Abbiamo utilizzato le risorse.</i>",
+      "answer": "die Ressource<br /><i>Ressourcen nutzen<br />Wir haben die Ressourcen genutzt.</i>"
+    },
+    {
+      "question": "Prestazione<br /><i>Ho fornito una buona prestazione.</i>",
+      "answer": "die Leistung<br /><i>gute Leistung bringen<br />Ich habe gute Leistung gebracht.</i>"
+    },
+    {
+      "question": "Impegno<br /><i>Abbiamo ridotto lo sforzo/costo.</i>",
+      "answer": "der Aufwand<br /><i>den Aufwand reduzieren<br />Wir haben den Aufwand reduziert.</i>"
+    },
+    {
+      "question": "Successo<br /><i>Ho festeggiato il successo.</i>",
+      "answer": "der Erfolg<br /><i>den Erfolg feiern<br />Ich habe den Erfolg gefeiert.</i>"
+    },
+    {
+      "question": "Progresso<br /><i>Abbiamo fatto progressi.</i>",
+      "answer": "der Fortschritt<br /><i>Fortschritte machen<br />Wir haben Fortschritte gemacht.</i>"
+    },
+    {
+      "question": "Capacità<br /><i>Ho verificato la capacità.</i>",
+      "answer": "die Kapazität<br /><i>die Kapazität prüfen<br />Ich habe die Kapazität geprüft.</i>"
+    },
+    {
+      "question": "Priorità<br /><i>Abbiamo stabilito le priorità.</i>",
+      "answer": "die Priorität<br /><i>Prioritäten setzen<br />Wir haben Prioritäten gesetzt.</i>"
+    },
+    {
+      "question": "Squadra<br /><i>Ho lavorato in team.</i>",
+      "answer": "das Team<br /><i>im Team arbeiten<br />Ich habe im Team gearbeitet.</i>"
+    },
+    {
+      "question": "Progetto<br /><i>Abbiamo guidato un progetto.</i>",
+      "answer": "das Projekt<br /><i>ein Projekt leiten<br />Wir haben ein Projekt geleitet.</i>"
+    },
+    {
+      "question": "Settore<br /><i>Ho diretto il settore.</i>",
+      "answer": "der Bereich<br /><i>den Bereich leiten<br />Ich habe den Bereich geleitet.</i>"
+    },
+    {
+      "question": "Compito<br /><i>Abbiamo svolto il compito.</i>",
+      "answer": "die Aufgabe<br /><i>die Aufgabe erledigen<br />Wir haben die Aufgabe erledigt.</i>"
+    },
+    {
+      "question": "Obiettivo<br /><i>Ho raggiunto l'obiettivo.</i>",
+      "answer": "das Ziel<br /><i>das Ziel erreichen<br />Ich habe das Ziel erreicht.</i>"
+    },
+    {
+      "question": "Processo<br /><i>Abbiamo ottimizzato il processo.</i>",
+      "answer": "der Prozess<br /><i>den Prozess optimieren<br />Wir haben den Prozess optimiert.</i>"
+    },
+    {
+      "question": "Pianificazione<br /><i>Ho concluso la pianificazione.</i>",
+      "answer": "die Planung<br /><i>die Planung abschließen<br />Ich habe die Planung abgeschlossen.</i>"
+    },
+    {
+      "question": "Scadenza<br /><i>Abbiamo rispettato la scadenza.</i>",
+      "answer": "die Frist<br /><i>die Frist einhalten<br />Wir haben die Frist eingehalten.</i>"
+    },
+    {
+      "question": "Direzione<br /><i>Ho cambiato direzione.</i>",
+      "answer": "die Richtung<br /><i>die Richtung ändern<br />Ich habe die Richtung geändert.</i>"
+    },
+    {
+      "question": "Misura<br /><i>Abbiamo adottato delle misure.</i>",
+      "answer": "die Maßnahme<br /><i>Maßnahmen ergreifen<br />Wir haben Maßnahmen ergriffen.</i>"
+    },
+    {
+      "question": "Strategia<br /><i>Ho sviluppato una strategia.</i>",
+      "answer": "die Strategie<br /><i>eine Strategie entwickeln<br />Ich habe eine Strategie entwickelt.</i>"
+    },
+    {
+      "question": "Standard<br /><i>Abbiamo definito uno standard.</i>",
+      "answer": "der Standard<br /><i>einen Standard definieren<br />Wir haben einen Standard definiert.</i>"
+    },
+    {
+      "question": "Valore<br /><i>Ho creato valore.</i>",
+      "answer": "der Wert<br /><i>Wert schaffen<br />Ich habe Wert geschaffen.</i>"
+    },
+    {
+      "question": "Concetto<br /><i>Abbiamo elaborato un concetto/bozza.</i>",
+      "answer": "das Konzept<br /><i>ein Konzept erstellen<br />Wir haben ein Konzept erstellt.</i>"
+    },
+    {
+      "question": "Requisito<br /><i>Ho soddisfatto i requisiti.</i>",
+      "answer": "die Anforderung<br /><i>die Anforderungen erfüllen<br />Ich habe die Anforderungen erfüllt.</i>"
+    },
+    {
+      "question": "Tecnologia<br /><i>Abbiamo utilizzato nuova tecnologia.</i>",
+      "answer": "die Technologie<br /><i>neue Technologie nutzen<br />Wir haben neue Technologie genutzt.</i>"
+    },
+    {
+      "question": "Intelligenza<br /><i>Ho impiegato l'intelligenza artificiale.</i>",
+      "answer": "die Intelligenz<br /><i>künstliche Intelligenz einsetzen<br />Ich habe künstliche Intelligenz eingesetzt.</i>"
+    },
+    {
+      "question": "Sviluppo<br /><i>Abbiamo promosso lo sviluppo.</i>",
+      "answer": "die Entwicklung<br /><i>die Entwicklung fördern<br />Wir haben die Entwicklung gefördert.</i>"
+    },
+    {
+      "question": "Cambiamento<br /><i>Ho accolto il cambiamento.</i>",
+      "answer": "die Veränderung<br /><i>die Veränderung begrüßen<br />Ich habe die Veränderung begrüßt.</i>"
+    },
+    {
+      "question": "Futuro<br /><i>Abbiamo plasmato il futuro.</i>",
+      "answer": "die Zukunft<br /><i>die Zukunft gestalten<br />Wir haben die Zukunft gestaltet.</i>"
+    },
+    {
+      "question": "Qualità<br /><i>Ho garantito la qualità.</i>",
+      "answer": "die Qualität<br /><i>die Qualität sichern<br />Ich habe die Qualität gesichert.</i>"
+    },
+    {
+      "question": "Metodo<br /><i>Abbiamo applicato un metodo.</i>",
+      "answer": "die Methode<br /><i>eine Methode anwenden<br />Wir haben eine Methode angewendet.</i>"
+    },
+    {
+      "question": "Contatto<br /><i>Ho stretto contatti.</i>",
+      "answer": "der Kontakt<br /><i>Kontakte knüpfen<br />Ich habe Kontakte geknüpft.</i>"
+    },
+    {
+      "question": "Cliente<br /><i>Abbiamo seguito i clienti.</i>",
+      "answer": "der Kunde / die Kundin<br /><i>Kunden betreuen<br />Wir haben die Kunden betreut.</i>"
+    },
+    {
+      "question": "Partner<br /><i>Ho acquisito nuovi partner.</i>",
+      "answer": "der Partner<br /><i>neue Partner gewinnen<br />Ich habe neue Partner gewonnen.</i>"
+    },
+    {
+      "question": "Supporto<br /><i>Abbiamo offerto supporto.</i>",
+      "answer": "die Unterstützung<br /><i>Unterstützung anbieten<br />Wir haben Unterstützung angeboten.</i>"
+    },
+    {
+      "question": "Scambio<br /><i>Ho promosso lo scambio.</i>",
+      "answer": "der Austausch<br /><i>den Austausch fördern<br />Ich habe den Austausch gefördert.</i>"
+    },
+    {
+      "question": "Responsabilità<br /><i>Ci siamo assunti la responsabilità.</i>",
+      "answer": "die Verantwortung<br /><i>die Verantwortung übernehmen<br />Wir haben die Verantwortung übernommen.</i>"
+    },
+    {
+      "question": "Colloquio<br /><i>Ho condotto un colloquio.</i>",
+      "answer": "das Gespräch<br /><i>ein Gespräch führen<br />Ich habe ein Gespräch geführt.</i>"
+    },
+    {
+      "question": "Riunione<br /><i>Abbiamo guidato la riunione.</i>",
+      "answer": "die Besprechung<br /><i>die Besprechung leiten<br />Wir haben die Besprechung geleitet.</i>"
+    },
+    {
+      "question": "Feedback<br /><i>Ho dato un feedback.</i>",
+      "answer": "die Rückmeldung<br /><i>Rückmeldung geben<br />Ich habe Rückmeldung gegeben.</i>"
+    },
+    {
+      "question": "Accordo<br /><i>Abbiamo stretto un accordo.</i>",
+      "answer": "die Vereinbarung<br /><i>eine Vereinbarung treffen<br />Wir haben eine Vereinbarung getroffen.</i>"
+    },
+    {
+      "question": "Collaborazione<br /><i>Ho migliorato la collaborazione.</i>",
+      "answer": "die Zusammenarbeit<br /><i>die Zusammenarbeit verbessern<br />Ich habe die Zusammenarbeit verbessert.</i>"
+    }
+  ]
+}
