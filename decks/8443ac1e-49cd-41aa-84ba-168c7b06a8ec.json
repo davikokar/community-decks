@@ -1,0 +1,1029 @@
+{
+  "deck_id": "8443ac1e-49cd-41aa-84ba-168c7b06a8ec",
+  "author_hash": "83f269cb848f1686a18fe3d7163bb38a540010f4e8cac42568ad622d419b0b49",
+  "title": "National Capitals",
+  "description": "Learn the capital city of the world.",
+  "category": "default_geography",
+  "cards": [
+    {
+      "question": "Ivory Coast (Côte d'Ivoire)<br /><small>(Africa)</small>",
+      "answer": "Abidjan (former capital; still hosts some government offices)<br /><small>(Abidjan is the country's largest city and its designated economic capital.)</small><br />Yamoussoukro (de jure)"
+    },
+    {
+      "question": "United Arab Emirates<br /><small>(Asia)</small>",
+      "answer": "Abu Dhabi"
+    },
+    {
+      "question": "Nigeria<br /><small>(Africa)</small>",
+      "answer": "Abuja<br /><small>(Lagos served as capital between 1914 and 1991.)</small>"
+    },
+    {
+      "question": "Ghana<br /><small>(Africa)</small>",
+      "answer": "Accra"
+    },
+    {
+      "question": "Pitcairn Islands<br /><small>(Oceania)</small>",
+      "answer": "Adamstown<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Ethiopia<br /><small>(Africa)</small>",
+      "answer": "Addis Ababa"
+    },
+    {
+      "question": "Yemen<br /><small>(Asia)</small>",
+      "answer": "Aden (de facto, temporary)<br /><small>(During Yemen's civil war, the Houthis took Sanaa in September 2014. Aden, formerly the capital of South Yemen, became the internationally recognized government's provisional seat. Its leaders reportedly left Aden during a separatist takeover in December 2025.)</small><br />Sanaa (de jure)"
+    },
+    {
+      "question": "Akrotiri and Dhekelia<br /><small>(Asia)</small>",
+      "answer": "Episkopi Cantonment<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Algeria<br /><small>(Africa)</small>",
+      "answer": "Algiers"
+    },
+    {
+      "question": "Niue<br /><small>(Oceania)</small>",
+      "answer": "Alofi<br /><small>(Niue governs itself in free association with New Zealand. Government offices are located in both Alofi North and Alofi South.)</small>"
+    },
+    {
+      "question": "Jordan<br /><small>(Asia)</small>",
+      "answer": "Amman"
+    },
+    {
+      "question": "Netherlands<br /><small>(Europe)</small>",
+      "answer": "Amsterdam (official)<br /><small>(The monarch, ministries, courts and diplomatic missions are based in The Hague. Related article: Capital of the Netherlands.)</small><br />The Hague (de facto)"
+    },
+    {
+      "question": "Andorra<br /><small>(Europe)</small>",
+      "answer": "Andorra la Vella"
+    },
+    {
+      "question": "Turkey<br /><small>(Asia)</small>",
+      "answer": "Ankara<br /><small>(Following the Turkish War of Independence, the new republic made Ankara its capital in 1923. Constantinople, now Istanbul, was the capital of the preceding Ottoman Empire.)</small>"
+    },
+    {
+      "question": "Madagascar<br /><small>(Africa)</small>",
+      "answer": "Antananarivo"
+    },
+    {
+      "question": "Samoa<br /><small>(Oceania)</small>",
+      "answer": "Apia"
+    },
+    {
+      "question": "Turkmenistan<br /><small>(Asia)</small>",
+      "answer": "Ashgabat"
+    },
+    {
+      "question": "Eritrea<br /><small>(Africa)</small>",
+      "answer": "Asmara"
+    },
+    {
+      "question": "Kazakhstan<br /><small>(Asia)</small>",
+      "answer": "Astana<br /><small>(Astana went by Nur-Sultan between 2019 and 2022. Almaty served as capital of independent Kazakhstan from 1991 to 1997 and of the Kazakh SSR from 1929 to 1991.)</small>"
+    },
+    {
+      "question": "Paraguay<br /><small>(South America)</small>",
+      "answer": "Asunción"
+    },
+    {
+      "question": "Tokelau<br /><small>(Oceania)</small>",
+      "answer": "Atafu (atoll administration)<br /><small>(Tokelau is a New Zealand territory. Atafu is its smallest atoll and has the largest settlement by population.)</small><br />Nukunonu (atoll administration)<br /><small>(Tokelau's largest atoll, with 531 inhabitants.)</small><br />Fakaofo (atoll administration)<br /><small>(Fale is this atoll's largest settlement by population.)</small>"
+    },
+    {
+      "question": "Greece<br /><small>(Europe)</small>",
+      "answer": "Athens"
+    },
+    {
+      "question": "Cook Islands<br /><small>(Oceania)</small>",
+      "answer": "Avarua<br /><small>(The Cook Islands govern themselves in free association with New Zealand. Rarotonga is the island containing Avarua and is sometimes mistakenly given as the capital.)</small>"
+    },
+    {
+      "question": "Iraq<br /><small>(Asia)</small>",
+      "answer": "Baghdad"
+    },
+    {
+      "question": "Azerbaijan<br /><small>(Asia)</small>",
+      "answer": "Baku"
+    },
+    {
+      "question": "Mali<br /><small>(Africa)</small>",
+      "answer": "Bamako"
+    },
+    {
+      "question": "Brunei<br /><small>(Asia)</small>",
+      "answer": "Bandar Seri Begawan"
+    },
+    {
+      "question": "Thailand<br /><small>(Asia)</small>",
+      "answer": "Bangkok"
+    },
+    {
+      "question": "Central African Republic<br /><small>(Africa)</small>",
+      "answer": "Bangui"
+    },
+    {
+      "question": "Gambia<br /><small>(Africa)</small>",
+      "answer": "Banjul"
+    },
+    {
+      "question": "Saint Kitts and Nevis<br /><small>(North America)</small>",
+      "answer": "Basseterre"
+    },
+    {
+      "question": "Guadeloupe<br /><small>(North America)</small>",
+      "answer": "Basse-Terre<br /><small>(Overseas department and region of France.)</small>"
+    },
+    {
+      "question": "China<br /><small>(Asia)</small>",
+      "answer": "Beijing<br /><small>(Related article: Historical capitals of China.)</small>"
+    },
+    {
+      "question": "Lebanon<br /><small>(Asia)</small>",
+      "answer": "Beirut"
+    },
+    {
+      "question": "Serbia<br /><small>(Europe)</small>",
+      "answer": "Belgrade"
+    },
+    {
+      "question": "Belize<br /><small>(North America)</small>",
+      "answer": "Belmopan<br /><small>(British Honduras, the predecessor of Belize, had its capital at Belize City.)</small>"
+    },
+    {
+      "question": "Germany<br /><small>(Europe)</small>",
+      "answer": "Berlin<br /><small>(Bonn, formerly West Germany's capital, housed the reunified German government until 1999. Six ministries still have their primary seat there. Related article: Capital of Germany.)</small>"
+    },
+    {
+      "question": "Switzerland<br /><small>(Europe)</small>",
+      "answer": "Bern (de facto)"
+    },
+    {
+      "question": "Kyrgyzstan<br /><small>(Asia)</small>",
+      "answer": "Bishkek"
+    },
+    {
+      "question": "Guinea-Bissau<br /><small>(Africa)</small>",
+      "answer": "Bissau"
+    },
+    {
+      "question": "South Africa<br /><small>(Africa)</small>",
+      "answer": "Bloemfontein (judicial)<br />Cape Town (legislative)<br />Pretoria (executive)"
+    },
+    {
+      "question": "Colombia<br /><small>(South America)</small>",
+      "answer": "Bogotá"
+    },
+    {
+      "question": "Montserrat<br /><small>(North America)</small>",
+      "answer": "Brades (de facto)<br /><small>(British Overseas Territory. The 1997 eruption of Soufrière Hills led to the abandonment of Plymouth and the relocation of government offices to Brades in the northwest. A new capital is under construction at Little Bay.)</small><br />Plymouth (de jure)"
+    },
+    {
+      "question": "Brazil<br /><small>(South America)</small>",
+      "answer": "Brasília<br /><small>(Rio de Janeiro remained the capital through 1960. Related article: Capitals of Brazil.)</small>"
+    },
+    {
+      "question": "Slovakia<br /><small>(Europe)</small>",
+      "answer": "Bratislava"
+    },
+    {
+      "question": "Congo<br /><small>(Africa)</small>",
+      "answer": "Brazzaville"
+    },
+    {
+      "question": "Barbados<br /><small>(North America)</small>",
+      "answer": "Bridgetown"
+    },
+    {
+      "question": "Belgium<br /><small>(Europe)</small>",
+      "answer": "Brussels"
+    },
+    {
+      "question": "European Union<br /><small>(Europe)</small>",
+      "answer": "Brussels<br /><small>(De facto capital.)</small>"
+    },
+    {
+      "question": "Romania<br /><small>(Europe)</small>",
+      "answer": "Bucharest"
+    },
+    {
+      "question": "Hungary<br /><small>(Europe)</small>",
+      "answer": "Budapest<br /><small>(Related article: List of historical capitals of Hungary.)</small>"
+    },
+    {
+      "question": "Argentina<br /><small>(South America)</small>",
+      "answer": "Buenos Aires"
+    },
+    {
+      "question": "Egypt<br /><small>(Africa)</small>",
+      "answer": "Cairo<br /><small>(Egypt is building a new capital at the New Capital site, potentially to be named Egypt. Related article: List of historical capitals of Egypt.)</small>"
+    },
+    {
+      "question": "Australia<br /><small>(Oceania)</small>",
+      "answer": "Canberra<br /><small>(Canberra was planned as a compromise between Melbourne, then the de facto capital, and Sydney, the biggest city and economic centre. Both were proposed as capitals at the Australasia Federation Conventions in the 1890s. Section 125 of the Constitution sets broad parameters for the capital's location and territory. The Seat of Government Act 1908 fixed the exact location.)</small>"
+    },
+    {
+      "question": "Venezuela<br /><small>(South America)</small>",
+      "answer": "Caracas"
+    },
+    {
+      "question": "Saint Lucia<br /><small>(North America)</small>",
+      "answer": "Castries"
+    },
+    {
+      "question": "French Guiana<br /><small>(South America)</small>",
+      "answer": "Cayenne<br /><small>(Overseas department, region and single territorial collectivity of France.)</small>"
+    },
+    {
+      "question": "United States Virgin Islands<br /><small>(North America)</small>",
+      "answer": "Charlotte Amalie<br /><small>(Territory of the United States.)</small>"
+    },
+    {
+      "question": "Moldova<br /><small>(Europe)</small>",
+      "answer": "Chișinău"
+    },
+    {
+      "question": "Equatorial Guinea<br /><small>(Africa)</small>",
+      "answer": "Ciudad de la Paz<br /><small>(Malabo served as capital until 2026.)</small>"
+    },
+    {
+      "question": "Turks and Caicos Islands<br /><small>(North America)</small>",
+      "answer": "Cockburn Town<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Sri Lanka<br /><small>(Asia)</small>",
+      "answer": "Colombo (executive, judicial)<br /><small>(Colombo was the capital until 1982. It retains many government institutions and is still the designated commercial capital. Related article: Capital of Sri Lanka.)</small><br />Sri Jayawardenepura Kotte (official)<br /><small>(Commonly called Kotte, it lies in suburban Colombo.)</small>"
+    },
+    {
+      "question": "Guinea<br /><small>(Africa)</small>",
+      "answer": "Conakry"
+    },
+    {
+      "question": "Denmark<br /><small>(Europe)</small>",
+      "answer": "Copenhagen"
+    },
+    {
+      "question": "Benin<br /><small>(Africa)</small>",
+      "answer": "Cotonou (de facto)<br />Porto-Novo (official)"
+    },
+    {
+      "question": "Senegal<br /><small>(Africa)</small>",
+      "answer": "Dakar"
+    },
+    {
+      "question": "Syria<br /><small>(Asia)</small>",
+      "answer": "Damascus"
+    },
+    {
+      "question": "Bangladesh<br /><small>(Asia)</small>",
+      "answer": "Dhaka"
+    },
+    {
+      "question": "East Timor<br /><small>(Asia)</small>",
+      "answer": "Dili"
+    },
+    {
+      "question": "Djibouti<br /><small>(Africa)</small>",
+      "answer": "Djibouti"
+    },
+    {
+      "question": "Tanzania<br /><small>(Africa)</small>",
+      "answer": "Dodoma<br /><small>(Dar es Salaam, the largest city and former capital, retains some ministries, courts and diplomatic missions.)</small>"
+    },
+    {
+      "question": "Qatar<br /><small>(Asia)</small>",
+      "answer": "Doha"
+    },
+    {
+      "question": "Isle of Man<br /><small>(Europe)</small>",
+      "answer": "Douglas<br /><small>(British Crown Dependency.)</small>"
+    },
+    {
+      "question": "Ireland<br /><small>(Europe)</small>",
+      "answer": "Dublin"
+    },
+    {
+      "question": "Tajikistan<br /><small>(Asia)</small>",
+      "answer": "Dushanbe"
+    },
+    {
+      "question": "Tristan da Cunha<br /><small>(Africa)</small>",
+      "answer": "Edinburgh of the Seven Seas<br /><small>(A constituent island of Saint Helena, Ascension and Tristan da Cunha, a British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Christmas Island<br /><small>(Asia)</small>",
+      "answer": "Flying Fish Cove<br /><small>(External territory of Australia.)</small>"
+    },
+    {
+      "question": "Martinique<br /><small>(North America)</small>",
+      "answer": "Fort-de-France<br /><small>(Overseas department, region and single territorial collectivity of France.)</small>"
+    },
+    {
+      "question": "Sierra Leone<br /><small>(Africa)</small>",
+      "answer": "Freetown"
+    },
+    {
+      "question": "Tuvalu<br /><small>(Oceania)</small>",
+      "answer": "Funafuti<br /><small>(The major government offices are in Vaiaku, a distinct village within Funafuti that functions as the capital.)</small>"
+    },
+    {
+      "question": "Botswana<br /><small>(Africa)</small>",
+      "answer": "Gaborone"
+    },
+    {
+      "question": "Cayman Islands<br /><small>(North America)</small>",
+      "answer": "George Town<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Ascension Island<br /><small>(Africa)</small>",
+      "answer": "Georgetown<br /><small>(A constituent island of Saint Helena, Ascension and Tristan da Cunha, a British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Guyana<br /><small>(South America)</small>",
+      "answer": "Georgetown"
+    },
+    {
+      "question": "Gibraltar<br /><small>(Europe)</small>",
+      "answer": "Gibraltar<br /><small>(City-state and British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Burundi<br /><small>(Africa)</small>",
+      "answer": "Gitega (de jure)<br /><small>(Bujumbura served as capital between 1962 and 2018.)</small><br />Bujumbura (de facto)"
+    },
+    {
+      "question": "Guatemala<br /><small>(North America)</small>",
+      "answer": "Guatemala City"
+    },
+    {
+      "question": "Saint Barthélemy<br /><small>(North America)</small>",
+      "answer": "Gustavia<br /><small>(Overseas collectivity of France.)</small>"
+    },
+    {
+      "question": "Guam<br /><small>(Oceania)</small>",
+      "answer": "Hagåtña<br /><small>(Territory of the United States.)</small>"
+    },
+    {
+      "question": "Bermuda<br /><small>(North America)</small>",
+      "answer": "Hamilton<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Vietnam<br /><small>(Asia)</small>",
+      "answer": "Hanoi<br /><small>(Related article: List of historical capitals of Vietnam.)</small>"
+    },
+    {
+      "question": "Zimbabwe<br /><small>(Africa)</small>",
+      "answer": "Harare"
+    },
+    {
+      "question": "Somaliland<br /><small>(Africa)</small>",
+      "answer": "Hargeisa<br /><small>(Somaliland governs itself in practice. The UN treats it as legally part of Somalia.)</small>"
+    },
+    {
+      "question": "Cuba<br /><small>(North America)</small>",
+      "answer": "Havana"
+    },
+    {
+      "question": "Finland<br /><small>(Europe)</small>",
+      "answer": "Helsinki"
+    },
+    {
+      "question": "Solomon Islands<br /><small>(Oceania)</small>",
+      "answer": "Honiara<br /><small>(Honiara is on Guadalcanal.)</small>"
+    },
+    {
+      "question": "Pakistan<br /><small>(Asia)</small>",
+      "answer": "Islamabad<br /><small>(Karachi served as Pakistan's first capital from 1948. Rawalpindi took over on an interim basis in 1958 while the planned city of Islamabad was being built nearby. Islamabad became the capital after construction was completed in 1967.)</small>"
+    },
+    {
+      "question": "Indonesia<br /><small>(Asia)</small>",
+      "answer": "Jakarta (de facto)<br /><small>(A move to Nusantara on Borneo is planned. Related article: Capital of Indonesia.)</small><br />Nusantara"
+    },
+    {
+      "question": "Saint Helena<br /><small>(Africa)</small>",
+      "answer": "Jamestown<br /><small>(A constituent island of Saint Helena, Ascension and Tristan da Cunha, a British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Israel<br /><small>(Asia)</small>",
+      "answer": "Jerusalem<br /><small>(Israel's Jerusalem Law designates the entire city as its capital, and Israeli government institutions are based there. UN Security Council Resolution 478 held the law invalid and asked states to withdraw diplomatic missions. Nearly all foreign embassies are in or near Tel Aviv. The United States recognized Jerusalem as Israel's capital and relocated its embassy in May 2018 despite the UN position. Many countries support international status for the city under the 1947 Partition Plan.)</small>"
+    },
+    {
+      "question": "Palestine<br /><small>(Asia)</small>",
+      "answer": "Jerusalem<br />Ramallah (de facto)"
+    },
+    {
+      "question": "South Sudan<br /><small>(Africa)</small>",
+      "answer": "Juba"
+    },
+    {
+      "question": "Afghanistan<br /><small>(Asia)</small>",
+      "answer": "Kabul"
+    },
+    {
+      "question": "Uganda<br /><small>(Africa)</small>",
+      "answer": "Kampala"
+    },
+    {
+      "question": "Nepal<br /><small>(Asia)</small>",
+      "answer": "Kathmandu"
+    },
+    {
+      "question": "Sudan<br /><small>(Africa)</small>",
+      "answer": "Khartoum"
+    },
+    {
+      "question": "Rwanda<br /><small>(Africa)</small>",
+      "answer": "Kigali"
+    },
+    {
+      "question": "South Georgia and the South Sandwich Islands<br /><small>(South America)</small>",
+      "answer": "King Edward Point<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Jamaica<br /><small>(North America)</small>",
+      "answer": "Kingston"
+    },
+    {
+      "question": "Norfolk Island<br /><small>(Oceania)</small>",
+      "answer": "Kingston<br /><small>(External territory of Australia.)</small>"
+    },
+    {
+      "question": "Saint Vincent and the Grenadines<br /><small>(North America)</small>",
+      "answer": "Kingstown"
+    },
+    {
+      "question": "Democratic Republic of the Congo<br /><small>(Africa)</small>",
+      "answer": "Kinshasa"
+    },
+    {
+      "question": "Bonaire<br /><small>(North America)</small>",
+      "answer": "Kralendijk<br /><small>(Public body of the Netherlands.)</small>"
+    },
+    {
+      "question": "Malaysia<br /><small>(Asia)</small>",
+      "answer": "Kuala Lumpur (de jure, legislative and royal)<br />Putrajaya (administrative and judicial)"
+    },
+    {
+      "question": "Kuwait<br /><small>(Asia)</small>",
+      "answer": "Kuwait City"
+    },
+    {
+      "question": "Ukraine<br /><small>(Europe)</small>",
+      "answer": "Kyiv"
+    },
+    {
+      "question": "Bolivia<br /><small>(South America)</small>",
+      "answer": "La Paz (administrative)<br /><small>(At 3,650 m, La Paz is the world's highest administrative capital, above Quito.)</small><br />Sucre (constitutional)"
+    },
+    {
+      "question": "Western Sahara<br /><small>(Africa)</small>",
+      "answer": "Laayoune (declared)<br /><small>(Morocco and the Sahrawi Arab Democratic Republic contest Western Sahara. Morocco controls Laayoune. Sahrawi authorities control Tifariti, their temporary capital after Bir Lehlou. Some government and military facilities operate in exile in Tindouf, Algeria. Related article: Politics of the Sahrawi Arab Democratic Republic.)</small><br />Tifariti (de facto)"
+    },
+    {
+      "question": "Gabon<br /><small>(Africa)</small>",
+      "answer": "Libreville"
+    },
+    {
+      "question": "Malawi<br /><small>(Africa)</small>",
+      "answer": "Lilongwe"
+    },
+    {
+      "question": "Peru<br /><small>(South America)</small>",
+      "answer": "Lima<br /><small>(Article 49 of Peru's constitution gives Cusco the symbolic title of historical capital (capital histórica). Arequipa is considered the legal capital because it houses the Constitutional Court.)</small>"
+    },
+    {
+      "question": "Portugal<br /><small>(Europe)</small>",
+      "answer": "Lisbon"
+    },
+    {
+      "question": "Slovenia<br /><small>(Europe)</small>",
+      "answer": "Ljubljana"
+    },
+    {
+      "question": "Eswatini<br /><small>(Africa)</small>",
+      "answer": "Lobamba (royal and legislative)<br />Mbabane (administrative)"
+    },
+    {
+      "question": "Togo<br /><small>(Africa)</small>",
+      "answer": "Lomé"
+    },
+    {
+      "question": "United Kingdom<br /><small>(Europe)</small>",
+      "answer": "London<br /><small>(Before the 1707 Acts of Union, London was England's capital and Edinburgh was Scotland's. The UK's constituent countries and capitals are England (London), Scotland (Edinburgh), Wales (Cardiff) and Northern Ireland (Belfast).)</small>"
+    },
+    {
+      "question": "British Indian Ocean Territory<br /><small>(Asia)</small>",
+      "answer": "London (administration)<br /><small>(British Overseas Territory. Administration is officially based in London, while Diego Garcia is sometimes treated as the capital.)</small><br />Diego Garcia (de facto)"
+    },
+    {
+      "question": "Svalbard and Jan Mayen<br /><small>(Europe)</small>",
+      "answer": "Longyearbyen<br /><small>(An unincorporated Norwegian area.)</small>"
+    },
+    {
+      "question": "Angola<br /><small>(Africa)</small>",
+      "answer": "Luanda"
+    },
+    {
+      "question": "Zambia<br /><small>(Africa)</small>",
+      "answer": "Lusaka"
+    },
+    {
+      "question": "Luxembourg<br /><small>(Europe)</small>",
+      "answer": "Luxembourg"
+    },
+    {
+      "question": "Spain<br /><small>(Europe)</small>",
+      "answer": "Madrid"
+    },
+    {
+      "question": "Marshall Islands<br /><small>(Oceania)</small>",
+      "answer": "Majuro<br /><small>(The Marshall Islands govern themselves in free association with the United States. Their government is based in Delap-Uliga-Djarrit on Majuro atoll.)</small>"
+    },
+    {
+      "question": "Maldives<br /><small>(Asia)</small>",
+      "answer": "Malé"
+    },
+    {
+      "question": "Mayotte<br /><small>(Africa)</small>",
+      "answer": "Mamoudzou<br /><small>(Overseas department, region and single territorial collectivity of France.)</small>"
+    },
+    {
+      "question": "Nicaragua<br /><small>(North America)</small>",
+      "answer": "Managua"
+    },
+    {
+      "question": "Bahrain<br /><small>(Asia)</small>",
+      "answer": "Manama"
+    },
+    {
+      "question": "Philippines<br /><small>(Asia)</small>",
+      "answer": "Manila"
+    },
+    {
+      "question": "Mozambique<br /><small>(Africa)</small>",
+      "answer": "Maputo"
+    },
+    {
+      "question": "Åland Islands<br /><small>(Europe)</small>",
+      "answer": "Mariehamn<br /><small>(Autonomous region of Finland.)</small>"
+    },
+    {
+      "question": "Saint Martin<br /><small>(North America)</small>",
+      "answer": "Marigot<br /><small>(Overseas collectivity of France.)</small>"
+    },
+    {
+      "question": "Lesotho<br /><small>(Africa)</small>",
+      "answer": "Maseru"
+    },
+    {
+      "question": "Wallis and Futuna<br /><small>(Oceania)</small>",
+      "answer": "Mata Utu<br /><small>(Overseas collectivity of France.)</small>"
+    },
+    {
+      "question": "Mexico<br /><small>(North America)</small>",
+      "answer": "Mexico City"
+    },
+    {
+      "question": "Belarus<br /><small>(Europe)</small>",
+      "answer": "Minsk"
+    },
+    {
+      "question": "Somalia<br /><small>(Africa)</small>",
+      "answer": "Mogadishu"
+    },
+    {
+      "question": "Monaco<br /><small>(Europe)</small>",
+      "answer": "Monaco<br /><small>(City-state. The constitution names no capital. The Commune of Monaco is the only commune and covers the entire country, so it functions as the capital.)</small>"
+    },
+    {
+      "question": "Liberia<br /><small>(Africa)</small>",
+      "answer": "Monrovia"
+    },
+    {
+      "question": "Uruguay<br /><small>(South America)</small>",
+      "answer": "Montevideo"
+    },
+    {
+      "question": "Comoros<br /><small>(Africa)</small>",
+      "answer": "Moroni"
+    },
+    {
+      "question": "Russia<br /><small>(Europe)</small>",
+      "answer": "Moscow<br /><small>(Russia's Constitutional Court is based in Saint Petersburg.)</small>"
+    },
+    {
+      "question": "Oman<br /><small>(Asia)</small>",
+      "answer": "Muscat"
+    },
+    {
+      "question": "Kenya<br /><small>(Africa)</small>",
+      "answer": "Nairobi"
+    },
+    {
+      "question": "Bahamas, The<br /><small>(North America)</small>",
+      "answer": "Nassau"
+    },
+    {
+      "question": "Myanmar<br /><small>(Asia)</small>",
+      "answer": "Naypyidaw<br /><small>(Yangon served as capital until 2006. Related article: List of capitals of Myanmar.)</small>"
+    },
+    {
+      "question": "Chad<br /><small>(Africa)</small>",
+      "answer": "N'Djamena"
+    },
+    {
+      "question": "India<br /><small>(Asia)</small>",
+      "answer": "New Delhi<br /><small>(Under British rule, Calcutta served as India's capital until 1911.)</small>"
+    },
+    {
+      "question": "Palau<br /><small>(Oceania)</small>",
+      "answer": "Ngerulmud<br /><small>(Palau governs itself in free association with the United States. Koror City served as capital until 2006.)</small>"
+    },
+    {
+      "question": "Niger<br /><small>(Africa)</small>",
+      "answer": "Niamey"
+    },
+    {
+      "question": "Cyprus<br /><small>(Asia)</small>",
+      "answer": "Nicosia<br /><small>(The city is divided between Cyprus and the breakaway Northern Cyprus, which the table describes as internationally unrecognized. Cyprus claims the entire city.)</small>"
+    },
+    {
+      "question": "Northern Cyprus<br /><small>(Asia)</small>",
+      "answer": "Nicosia<br /><small>(The city is divided between Cyprus and the breakaway Northern Cyprus, which the table describes as internationally unrecognized. Cyprus claims the entire city.)</small>"
+    },
+    {
+      "question": "Mauritania<br /><small>(Africa)</small>",
+      "answer": "Nouakchott"
+    },
+    {
+      "question": "New Caledonia<br /><small>(Oceania)</small>",
+      "answer": "Nouméa<br /><small>(Overseas territory of France.)</small>"
+    },
+    {
+      "question": "Tonga<br /><small>(Oceania)</small>",
+      "answer": "Nukuʻalofa"
+    },
+    {
+      "question": "Greenland<br /><small>(North America)</small>",
+      "answer": "Nuuk<br /><small>(Self-governing country within the Kingdom of Denmark.)</small>"
+    },
+    {
+      "question": "Aruba<br /><small>(North America)</small>",
+      "answer": "Oranjestad<br /><small>(Self-governing country within the Kingdom of the Netherlands.)</small>"
+    },
+    {
+      "question": "Sint Eustatius<br /><small>(North America)</small>",
+      "answer": "Oranjestad<br /><small>(Public body of the Netherlands.)</small>"
+    },
+    {
+      "question": "Norway<br /><small>(Europe)</small>",
+      "answer": "Oslo<br /><small>(See also: List of historical capitals of Norway.)</small>"
+    },
+    {
+      "question": "Canada<br /><small>(North America)</small>",
+      "answer": "Ottawa"
+    },
+    {
+      "question": "Burkina Faso<br /><small>(Africa)</small>",
+      "answer": "Ouagadougou"
+    },
+    {
+      "question": "American Samoa<br /><small>(Oceania)</small>",
+      "answer": "Pago Pago<br /><small>(Territory of the United States.)</small>"
+    },
+    {
+      "question": "Micronesia<br /><small>(Oceania)</small>",
+      "answer": "Palikir<br /><small>(The Federated States of Micronesia govern themselves in free association with the United States. Former capital Kolonia still hosts embassies of Australia, China, Japan and the United States.)</small>"
+    },
+    {
+      "question": "Panama<br /><small>(North America)</small>",
+      "answer": "Panama City"
+    },
+    {
+      "question": "French Polynesia<br /><small>(Oceania)</small>",
+      "answer": "Papeete<br /><small>(Overseas collectivity of France.)</small>"
+    },
+    {
+      "question": "Suriname<br /><small>(South America)</small>",
+      "answer": "Paramaribo"
+    },
+    {
+      "question": "France<br /><small>(Europe)</small>",
+      "answer": "Paris<br /><small>(Related article: List of Capitals of France.)</small>"
+    },
+    {
+      "question": "Sint Maarten<br /><small>(North America)</small>",
+      "answer": "Philipsburg<br /><small>(Self-governing country within the Kingdom of the Netherlands.)</small>"
+    },
+    {
+      "question": "Cambodia<br /><small>(Asia)</small>",
+      "answer": "Phnom Penh"
+    },
+    {
+      "question": "Montenegro<br /><small>(Europe)</small>",
+      "answer": "Podgorica<br /><small>(Cetinje holds the title of Old Royal Capital and is the president's current seat.)</small>"
+    },
+    {
+      "question": "Mauritius<br /><small>(Africa)</small>",
+      "answer": "Port Louis"
+    },
+    {
+      "question": "Papua New Guinea<br /><small>(Oceania)</small>",
+      "answer": "Port Moresby"
+    },
+    {
+      "question": "Trinidad and Tobago<br /><small>(North America)</small>",
+      "answer": "Port of Spain"
+    },
+    {
+      "question": "Vanuatu<br /><small>(Oceania)</small>",
+      "answer": "Port Vila"
+    },
+    {
+      "question": "Haiti<br /><small>(North America)</small>",
+      "answer": "Port-au-Prince"
+    },
+    {
+      "question": "Czech Republic<br /><small>(Europe)</small>",
+      "answer": "Prague<br /><small>(The Czech Supreme Court sits in Brno.)</small>"
+    },
+    {
+      "question": "Cape Verde<br /><small>(Africa)</small>",
+      "answer": "Praia"
+    },
+    {
+      "question": "Kosovo<br /><small>(Europe)</small>",
+      "answer": "Pristina<br /><small>(Kosovo governs itself in practice. Serbia claims all of it as its Autonomous Province of Kosovo and Metohija.)</small>"
+    },
+    {
+      "question": "North Korea<br /><small>(Asia)</small>",
+      "answer": "Pyongyang"
+    },
+    {
+      "question": "Ecuador<br /><small>(South America)</small>",
+      "answer": "Quito<br /><small>(At 2,850 m, Quito is the world's highest official capital.)</small>"
+    },
+    {
+      "question": "Morocco<br /><small>(Africa)</small>",
+      "answer": "Rabat"
+    },
+    {
+      "question": "Iceland<br /><small>(Europe)</small>",
+      "answer": "Reykjavík"
+    },
+    {
+      "question": "Latvia<br /><small>(Europe)</small>",
+      "answer": "Riga"
+    },
+    {
+      "question": "Saudi Arabia<br /><small>(Asia)</small>",
+      "answer": "Riyadh"
+    },
+    {
+      "question": "British Virgin Islands<br /><small>(North America)</small>",
+      "answer": "Road Town<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Italy<br /><small>(Europe)</small>",
+      "answer": "Rome"
+    },
+    {
+      "question": "Dominica<br /><small>(North America)</small>",
+      "answer": "Roseau"
+    },
+    {
+      "question": "British Antarctic Territory<br /><small>(Antarctica)</small>",
+      "answer": "Rothera<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Northern Mariana Islands<br /><small>(Oceania)</small>",
+      "answer": "Saipan<br /><small>(US territory. The government is based in Capitol Hill on Saipan.)</small>"
+    },
+    {
+      "question": "Réunion<br /><small>(Africa)</small>",
+      "answer": "Saint-Denis<br /><small>(Overseas department and region of France.)</small>"
+    },
+    {
+      "question": "Costa Rica<br /><small>(North America)</small>",
+      "answer": "San José"
+    },
+    {
+      "question": "Puerto Rico<br /><small>(North America)</small>",
+      "answer": "San Juan<br /><small>(Territory of the United States.)</small>"
+    },
+    {
+      "question": "San Marino<br /><small>(Europe)</small>",
+      "answer": "San Marino"
+    },
+    {
+      "question": "El Salvador<br /><small>(North America)</small>",
+      "answer": "San Salvador"
+    },
+    {
+      "question": "Chile<br /><small>(South America)</small>",
+      "answer": "Santiago<br /><small>(Chile's National Congress meets in Valparaíso.)</small>"
+    },
+    {
+      "question": "Dominican Republic<br /><small>(North America)</small>",
+      "answer": "Santo Domingo"
+    },
+    {
+      "question": "São Tomé and Príncipe<br /><small>(Africa)</small>",
+      "answer": "São Tomé"
+    },
+    {
+      "question": "Bosnia and Herzegovina<br /><small>(Europe)</small>",
+      "answer": "Sarajevo"
+    },
+    {
+      "question": "South Korea<br /><small>(Asia)</small>",
+      "answer": "Seoul<br /><small>(Sejong City became the de facto administrative capital after some government functions moved there on 2 July 2012.)</small>"
+    },
+    {
+      "question": "Singapore<br /><small>(Asia)</small>",
+      "answer": "Singapore<br /><small>(City-state.)</small>"
+    },
+    {
+      "question": "North Macedonia<br /><small>(Europe)</small>",
+      "answer": "Skopje"
+    },
+    {
+      "question": "Bulgaria<br /><small>(Europe)</small>",
+      "answer": "Sofia"
+    },
+    {
+      "question": "Kiribati<br /><small>(Oceania)</small>",
+      "answer": "South Tarawa<br /><small>(South Tarawa lies on Tarawa atoll.)</small>"
+    },
+    {
+      "question": "Grenada<br /><small>(North America)</small>",
+      "answer": "St. George's"
+    },
+    {
+      "question": "Jersey<br /><small>(Europe)</small>",
+      "answer": "St. Helier<br /><small>(British Crown Dependency.)</small>"
+    },
+    {
+      "question": "Antigua and Barbuda<br /><small>(North America)</small>",
+      "answer": "St. John's"
+    },
+    {
+      "question": "Guernsey<br /><small>(Europe)</small>",
+      "answer": "St. Peter Port<br /><small>(British Crown Dependency.)</small>"
+    },
+    {
+      "question": "Saint Pierre and Miquelon<br /><small>(North America)</small>",
+      "answer": "St. Pierre<br /><small>(Overseas collectivity of France.)</small>"
+    },
+    {
+      "question": "Falkland Islands<br /><small>(South America)</small>",
+      "answer": "Stanley<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Sweden<br /><small>(Europe)</small>",
+      "answer": "Stockholm"
+    },
+    {
+      "question": "Abkhazia<br /><small>(Asia)</small>",
+      "answer": "Sukhumi<br /><small>(Abkhazia governs itself in practice and has partial recognition. Georgia claims the entire territory as its Autonomous Republic of Abkhazia.)</small>"
+    },
+    {
+      "question": "Fiji<br /><small>(Oceania)</small>",
+      "answer": "Suva"
+    },
+    {
+      "question": "Taiwan<br /><small>(Asia)</small>",
+      "answer": "Taipei<br /><small>(Taiwan governs itself as the Republic of China, whose rival claim to represent China dates to 1949. It administers Taiwan, Quemoy, Matsu, the Pratas and part of the Spratly Islands. The People's Republic of China claims all of these territories. The Republic of China participates in some international bodies under other names, most often Chinese Taipei.)</small>"
+    },
+    {
+      "question": "Estonia<br /><small>(Europe)</small>",
+      "answer": "Tallinn"
+    },
+    {
+      "question": "Uzbekistan<br /><small>(Asia)</small>",
+      "answer": "Tashkent"
+    },
+    {
+      "question": "Georgia<br /><small>(Asia)</small>",
+      "answer": "Tbilisi<br /><small>(Kutaisi was Georgia's legislative capital between 2012 and 2018. Mtskheta is sometimes described as an ancient Georgian capital.)</small>"
+    },
+    {
+      "question": "Honduras<br /><small>(North America)</small>",
+      "answer": "Tegucigalpa<br /><small>(The Honduran constitution names Tegucigalpa and Comayagüela as joint capitals. They now form one urban area.)</small><br />Comayagüela"
+    },
+    {
+      "question": "Iran<br /><small>(Asia)</small>",
+      "answer": "Tehran"
+    },
+    {
+      "question": "Bhutan<br /><small>(Asia)</small>",
+      "answer": "Thimphu"
+    },
+    {
+      "question": "Saba<br /><small>(North America)</small>",
+      "answer": "The Bottom<br /><small>(Public body of the Netherlands.)</small>"
+    },
+    {
+      "question": "Albania<br /><small>(Europe)</small>",
+      "answer": "Tirana"
+    },
+    {
+      "question": "Transnistria<br /><small>(Europe)</small>",
+      "answer": "Tiraspol<br /><small>(Transnistria governs itself in practice and has recognition only from entities outside the UN. Moldova claims the whole area as an autonomous territorial unit on the left bank of the Dniester.)</small>"
+    },
+    {
+      "question": "Japan<br /><small>(Asia)</small>",
+      "answer": "Tokyo<br /><small>(Related article: Capital of Japan.)</small>"
+    },
+    {
+      "question": "Faroe Islands<br /><small>(Europe)</small>",
+      "answer": "Tórshavn<br /><small>(Self-governing country within the Kingdom of Denmark.)</small>"
+    },
+    {
+      "question": "Libya<br /><small>(Africa)</small>",
+      "answer": "Tripoli"
+    },
+    {
+      "question": "South Ossetia<br /><small>(Asia)</small>",
+      "answer": "Tskhinvali<br /><small>(South Ossetia governs itself in practice and has limited recognition. Georgia claims the entire territory under its Provisional Administration of South Ossetia.)</small>"
+    },
+    {
+      "question": "Tunisia<br /><small>(Africa)</small>",
+      "answer": "Tunis"
+    },
+    {
+      "question": "Mongolia<br /><small>(Asia)</small>",
+      "answer": "Ulaanbaatar"
+    },
+    {
+      "question": "Liechtenstein<br /><small>(Europe)</small>",
+      "answer": "Vaduz"
+    },
+    {
+      "question": "Malta<br /><small>(Europe)</small>",
+      "answer": "Valletta"
+    },
+    {
+      "question": "Anguilla<br /><small>(North America)</small>",
+      "answer": "The Valley<br /><small>(British Overseas Territory.)</small>"
+    },
+    {
+      "question": "Vatican City<br /><small>(Europe)</small>",
+      "answer": "Vatican City<br /><small>(City-state.)</small>"
+    },
+    {
+      "question": "Seychelles<br /><small>(Africa)</small>",
+      "answer": "Victoria"
+    },
+    {
+      "question": "Austria<br /><small>(Europe)</small>",
+      "answer": "Vienna"
+    },
+    {
+      "question": "Laos<br /><small>(Asia)</small>",
+      "answer": "Vientiane"
+    },
+    {
+      "question": "Lithuania<br /><small>(Europe)</small>",
+      "answer": "Vilnius"
+    },
+    {
+      "question": "Poland<br /><small>(Europe)</small>",
+      "answer": "Warsaw<br /><small>(Related template: Historical capitals of Poland.)</small>"
+    },
+    {
+      "question": "United States<br /><small>(North America)</small>",
+      "answer": "Washington, D.C.<br /><small>(The United States has changed capitals several times. Related article: National capitals of the United States.)</small>"
+    },
+    {
+      "question": "New Zealand<br /><small>(Oceania)</small>",
+      "answer": "Wellington<br /><small>(Wellington has been New Zealand's third capital since 1865. Related article: Capital of New Zealand.)</small>"
+    },
+    {
+      "question": "Cocos (Keeling) Islands<br /><small>(Asia)</small>",
+      "answer": "West Island<br /><small>(External territory of Australia.)</small>"
+    },
+    {
+      "question": "Curaçao<br /><small>(North America)</small>",
+      "answer": "Willemstad<br /><small>(Self-governing country within the Kingdom of the Netherlands.)</small>"
+    },
+    {
+      "question": "Namibia<br /><small>(Africa)</small>",
+      "answer": "Windhoek"
+    },
+    {
+      "question": "Cameroon<br /><small>(Africa)</small>",
+      "answer": "Yaoundé"
+    },
+    {
+      "question": "Nauru<br /><small>(Oceania)</small>",
+      "answer": "Yaren (de facto)<br /><small>(Nauru has neither an official capital nor cities. Its government offices are in the district of Yaren.)</small>"
+    },
+    {
+      "question": "Armenia<br /><small>(Asia)</small>",
+      "answer": "Yerevan"
+    },
+    {
+      "question": "Croatia<br /><small>(Europe)</small>",
+      "answer": "Zagreb"
+    }
+  ]
+}
