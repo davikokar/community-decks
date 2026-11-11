@@ -1,0 +1,577 @@
+{
+  "deck_id": "a2745655-1254-43ec-a015-0bf8c59e8a6c",
+  "author_hash": "4a71729ad9867707bf1bcdc7db838b022390f3fc556be51a826f72f3e37a8a0c",
+  "title": "Fundamentals of Software Architecture",
+  "description": "",
+  "category": "default_computer_science",
+  "cards": [
+    {
+      "question": "What are the four dimensions that define software architecture?",
+      "answer": "Structure (architecture styles), architecture characteristics ('-ilities'), architecture decisions (rules), and design principles (guidelines)."
+    },
+    {
+      "question": "What is the difference between an architecture decision and a design principle?",
+      "answer": "An architecture decision is a strict rule/constraint that must be followed; a design principle is a guideline or recommendation that guides choices."
+    },
+    {
+      "question": "List the eight core expectations of a software architect.",
+      "answer": "Make architecture decisions, continually analyze the architecture, keep current with latest trends, ensure compliance, have diverse exposure/experience, have business domain knowledge, possess interpersonal skills, and navigate politics."
+    },
+    {
+      "question": "What is the First Law of Software Architecture?",
+      "answer": "Everything in software architecture is a trade-off. (If you think something isn't a trade-off, you haven't identified the trade-off yet.)"
+    },
+    {
+      "question": "Describe the traditional approach of architecture versus development and explain why that approach no longer works.",
+      "answer": "It was a unidirectional handoff where architects designed in isolation and handed off to developers; it fails because software changes dynamically and requires tight bidirectional collaboration and feedback."
+    },
+    {
+      "question": "List the three levels of knowledge in the knowledge triangle and provide an example of each.",
+      "answer": "1. Stuff you know (technologies used daily, e.g., Java); 2. Stuff you know you don't know (known concepts without depth, e.g., Clojure); 3. Stuff you don't know you don't know (unknown tools/solutions)."
+    },
+    {
+      "question": "Why is it more important for an architect to focus on technical breadth rather than technical depth?",
+      "answer": "Architects must match solutions to constraints across many options; knowing multiple potential solutions is more valuable than mastering just one."
+    },
+    {
+      "question": "What are some of the ways of maintaining your technical depth and remaining hands-on as an architect?",
+      "answer": "Frequent proof-of-concepts (POCs), writing fitness functions/automation, conducting code reviews, and coding non-critical-path business functionality 1-3 iterations ahead."
+    },
+    {
+      "question": "What is meant by the term connascence?",
+      "answer": "Two components are connascent if a change in one requires the other to be modified to maintain overall correctness."
+    },
+    {
+      "question": "What is the difference between static and dynamic connascence?",
+      "answer": "Static connascence is source-code-level coupling found via static analysis; dynamic connascence refers to runtime execution coupling."
+    },
+    {
+      "question": "What does connascence of type mean? Is it static or dynamic connascence?",
+      "answer": "Multiple components must agree on the type of an entity (e.g., parameter/variable types); it is static connascence."
+    },
+    {
+      "question": "What is the strongest form of connascence?",
+      "answer": "Connascence of Identity (CoI), where multiple components must share/reference the exact same runtime entity (dynamic). (For static, it is Connascence of Position/Algorithm)."
+    },
+    {
+      "question": "What is the weakest form of connascence?",
+      "answer": "Connascence of Name (CoN), where components only need to agree on the name of an entity."
+    },
+    {
+      "question": "Which is preferred within a code base—static or dynamic connascence?",
+      "answer": "Static connascence, because it is easier to detect with source-code analysis and much simpler to refactor with modern tooling."
+    },
+    {
+      "question": "What three criteria must an attribute meet to be considered an architecture characteristic?",
+      "answer": "1. Specifies a non-domain design consideration; 2. Influences a structural aspect of the design; 3. Is critical or important to application success."
+    },
+    {
+      "question": "What is the difference between an implicit characteristic and an explicit one? Provide an example of each.",
+      "answer": "Explicit characteristics are stated in requirements/specifications (e.g., 10,000 concurrent users -> scalability); implicit characteristics are unstated but vital to success (e.g., availability, security, reliability)."
+    },
+    {
+      "question": "Provide an example of an operational characteristic.",
+      "answer": "Performance, scalability, elasticity, availability, reliability, or recoverability."
+    },
+    {
+      "question": "Provide an example of a structural characteristic.",
+      "answer": "Configurability, extensibility, maintainability, modularity, portability, or leverageability/reuse."
+    },
+    {
+      "question": "Provide an example of a cross-cutting characteristic.",
+      "answer": "Security, authentication, authorization, legal/compliance, accessibility, or privacy."
+    },
+    {
+      "question": "Which architecture characteristic is more important to strive for—availability or performance?",
+      "answer": "Availability, because a fast system is useless if it is down or inaccessible to users."
+    },
+    {
+      "question": "Give a reason why it is a good practice to limit the number of characteristics ('-ilities') an architecture should support.",
+      "answer": "Each supported characteristic adds architectural complexity and often negatively impacts others; supporting too many leads to an unworkable generic architecture."
+    },
+    {
+      "question": "True or false: most architecture characteristics come from business requirements and user stories.",
+      "answer": "False; most derive from domain concerns, implicit domain realities, and collaboration with stakeholders, rather than explicit requirement statements."
+    },
+    {
+      "question": "If a business stakeholder states that time-to-market is the most important business concern, which architecture characteristics would the architecture need to support?",
+      "answer": "Agility, testability, and deployability."
+    },
+    {
+      "question": "What is the difference between scalability and elasticity?",
+      "answer": "Scalability is handling high concurrent load over sustained growth; elasticity is handling sudden, temporary spikes or bursts in traffic."
+    },
+    {
+      "question": "You find out that your company is about to undergo several major acquisitions to significantly increase its customer base. Which architectural characteristics should you be worried about?",
+      "answer": "Interoperability, scalability, adaptability, and extensibility."
+    },
+    {
+      "question": "Why is cyclomatic complexity such an important metric to analyze for architecture?",
+      "answer": "It measures the number of execution paths; excessive complexity harms modularity, testability, and maintainability across the architecture."
+    },
+    {
+      "question": "What is an architecture fitness function? How can they be used to analyze an architecture?",
+      "answer": "Any mechanism (tests, metrics, monitors, chaos engineering) providing an objective integrity assessment of architectural characteristics over time."
+    },
+    {
+      "question": "Provide an example of an architecture fitness function to measure the scalability of an architecture.",
+      "answer": "An automated performance/stress test in the CI/CD pipeline simulating 10,000 concurrent users to verify response times stay below a defined threshold."
+    },
+    {
+      "question": "What is the most important criteria for an architecture characteristic to allow architects and developers to create fitness functions?",
+      "answer": "It must have an objective, measurable definition rather than a vague or subjective description."
+    },
+    {
+      "question": "What is an architectural quantum, and why is it important to architecture?",
+      "answer": "An independently deployable artifact with high functional cohesion and synchronous connascence; it scopes architecture characteristics to cohesive units rather than the entire system."
+    },
+    {
+      "question": "Assume a system consisting of a single user interface with four independently deployed services, each containing its own separate database. Would this system have a single quantum or four quanta? Why?",
+      "answer": "A single quantum, because the shared user interface couples them together into a single deployable and operational scope."
+    },
+    {
+      "question": "Assume a system with an administration portion managing static reference data and a customer-facing portion managing orders. How many quanta should this system be and why? Could they share a database? Where would it reside?",
+      "answer": "Two quanta (different characteristics: admin needs low scale/high security; customer needs high scale/availability). If sharing a database, it binds them into one quantum, located in the customer quantum due to stricter constraints."
+    },
+    {
+      "question": "How are components typically manifested within an application or service?",
+      "answer": "As physical packaging units like JARs (Java), DLLs (.NET), gems (Ruby), packages, namespaces, or standalone services."
+    },
+    {
+      "question": "What is the difference between technical partitioning and domain partitioning? Provide an example of each.",
+      "answer": "Technical partitioning organizes by technical capabilities (e.g., presentation, business, persistence layers); domain partitioning organizes by business workflows/contexts (e.g., Customer, Payment, Inventory components)."
+    },
+    {
+      "question": "What is the advantage of domain partitioning?",
+      "answer": "Changes align with business capabilities, localizing cross-layer changes to a single domain unit and improving time to market and agility."
+    },
+    {
+      "question": "Under what circumstances would technical partitioning be a better choice over domain partitioning?",
+      "answer": "Early development stages of small/simple systems, modular monoliths before domains stabilize, or where technical layers provide natural separation of roles."
+    },
+    {
+      "question": "What is the entity trap? Why is it not a good approach for component identification?",
+      "answer": "Mapping each database table/entity 1:1 to a component; it creates anemic CRUD components rather than cohesive, workflow-driven business components."
+    },
+    {
+      "question": "When might you choose the workflow approach over the Actor/Actions approach when identifying core components?",
+      "answer": "When the application centers on sequential business workflows or processes rather than diverse user roles and discrete actions."
+    },
+    {
+      "question": "List the eight fallacies of distributed computing.",
+      "answer": "1. Network is reliable; 2. Latency is zero; 3. Bandwidth is infinite; 4. Network is secure; 5. Topology never changes; 6. There is only one administrator; 7. Transport cost is zero; 8. Network is homogeneous."
+    },
+    {
+      "question": "Name three challenges that distributed architectures have that monolithic architectures don’t.",
+      "answer": "Network latency/reliability issues, distributed transactions/eventual consistency, and higher operational/security complexity across multiple endpoints."
+    },
+    {
+      "question": "What is stamp coupling?",
+      "answer": "Passing an entire composite data structure between services when only a small subset of the data fields is actually needed."
+    },
+    {
+      "question": "What are some ways of addressing stamp coupling?",
+      "answer": "Use private/narrow data contracts, GraphQL/field selection, or message transformers returning only the required fields."
+    },
+    {
+      "question": "What is the difference between an open layer and a closed layer?",
+      "answer": "A closed layer requires incoming requests to pass through it to reach lower layers; an open layer allows requests to bypass it."
+    },
+    {
+      "question": "Describe the layers of isolation concept and what the benefits are of this concept.",
+      "answer": "Changes made within one closed layer do not ripple to other layers; it enables maintainability, ease of refactoring, and clear separation of concerns."
+    },
+    {
+      "question": "What is the architecture sinkhole anti-pattern?",
+      "answer": "Requests pass through multiple layers with little or no business logic performed, simply proxying data down to the database."
+    },
+    {
+      "question": "What are some of the main architecture characteristics that would drive you to use a layered architecture?",
+      "answer": "Simplicity, ease of development, maintainability, and low cost."
+    },
+    {
+      "question": "Why isn’t testability well supported in the layered architecture style?",
+      "answer": "The monolithic deployment makes testing the whole system slower, and mock/stub dependencies between tightly coupled tiers add overhead."
+    },
+    {
+      "question": "Why isn’t agility well supported in the layered architecture style?",
+      "answer": "Changes often require modifying multiple technical layers (presentation, business, persistence) and redeploying the entire monolithic deployment unit."
+    },
+    {
+      "question": "Can pipes be bidirectional in a pipeline architecture?",
+      "answer": "No; pipes in a pipeline architecture are strictly unidirectional and point-to-point."
+    },
+    {
+      "question": "Name the four types of filters and their purpose.",
+      "answer": "1. Producer (source of data); 2. Transformer (transforms data); 3. Tester (filters/reduces data based on criteria); 4. Consumer (terminal sink)."
+    },
+    {
+      "question": "Can a filter send data out through multiple pipes?",
+      "answer": "Yes; a filter can produce or route output to multiple outbound pipes (e.g., fork/branching)."
+    },
+    {
+      "question": "Is the pipeline architecture style technically partitioned or domain partitioned?",
+      "answer": "Technically partitioned, organized around functional transformation steps rather than domain concepts."
+    },
+    {
+      "question": "In what way does the pipeline architecture support modularity?",
+      "answer": "Filters are discrete, independent, interchangeable, and reusable components connected by standard pipe interfaces."
+    },
+    {
+      "question": "Provide two examples of the pipeline architecture style.",
+      "answer": "Unix shell pipelines (e.g., grep | sort | uniq) and ETL (Extract, Transform, Load) data processing tools."
+    },
+    {
+      "question": "What is another name for the microkernel architecture style?",
+      "answer": "Plug-in architecture."
+    },
+    {
+      "question": "Under what situations is it OK for plug-in components to be dependent on other plug-in components?",
+      "answer": "Generally never; plug-ins should remain completely independent and self-contained to avoid cascading failures and coupling."
+    },
+    {
+      "question": "What are some of the tools and frameworks that can be used to manage plug-ins?",
+      "answer": "OSGi, Java SPI/Jigsaw, Prism (.NET), or custom plug-in registries via dependency injection containers."
+    },
+    {
+      "question": "What would you do if you had a third-party plug-in that didn’t conform to the standard plug-in contract in the core system?",
+      "answer": "Create an adapter plug-in that bridges the third-party interface to the core system's expected plug-in contract."
+    },
+    {
+      "question": "Provide two examples of the microkernel architecture style.",
+      "answer": "Eclipse IDE (or IntelliJ IDEA) and web browsers (like Chrome or Firefox with browser extensions)."
+    },
+    {
+      "question": "Is the microkernel architecture style technically partitioned or domain partitioned?",
+      "answer": "It can be both, but typically domain partitioned where each plug-in encapsulates a specific domain feature/product."
+    },
+    {
+      "question": "Why is the microkernel architecture always a single architecture quantum?",
+      "answer": "All requests must pass through the monolithic core system to access plug-in components, binding them into a single operational unit."
+    },
+    {
+      "question": "What is domain/architecture isomorphism?",
+      "answer": "When the architectural shape/structure directly mirrors and naturally fits the underlying problem domain (e.g., custom rules matching plug-ins)."
+    },
+    {
+      "question": "How many services are there in a typical service-based architecture?",
+      "answer": "Typically 4 to 12 coarse-grained domain services."
+    },
+    {
+      "question": "Do you have to break apart a database in service-based architecture?",
+      "answer": "No; service-based architectures commonly share a single centrally managed database across domain services."
+    },
+    {
+      "question": "Under what circumstances might you want to break apart a database?",
+      "answer": "To achieve multiple quanta, isolate sensitive data, avoid schema bottlenecks, or address differing scalability/availability needs."
+    },
+    {
+      "question": "What technique can you use to manage database changes within a service-based architecture?",
+      "answer": "Logical database partitioning (schemas/views) or version-controlled evolutionary database migration scripts."
+    },
+    {
+      "question": "Do domain services require a container (such as Docker) to run?",
+      "answer": "No; domain services can run directly on virtual machines, application servers, or physical hardware without containers."
+    },
+    {
+      "question": "Which architecture characteristics are well supported by the service-based architecture style?",
+      "answer": "Agility, testability, deployability, simplicity, maintainability, and low cost."
+    },
+    {
+      "question": "Why isn’t elasticity well supported in a service-based architecture?",
+      "answer": "Coarse-grained services and shared databases make dynamic, rapid automated spin-up/spin-down of instances difficult."
+    },
+    {
+      "question": "How can you increase the number of architecture quanta in a service-based architecture?",
+      "answer": "By federating both the user interface and the underlying database across separate domain service groups."
+    },
+    {
+      "question": "What are the primary differences between the broker and mediator topologies?",
+      "answer": "Broker has no central coordinator (uses lightweight event broadcast/forwarding); Mediator uses a central mediator to orchestrate workflow steps."
+    },
+    {
+      "question": "For better workflow control, would you use the mediator or broker topology?",
+      "answer": "Mediator topology, because the central coordinator maintains state and controls event sequencing and error handling."
+    },
+    {
+      "question": "Does the broker topology usually leverage a publish-and-subscribe model with topics or a point-to-point model with queues?",
+      "answer": "Publish-and-subscribe model with topics."
+    },
+    {
+      "question": "Name two primary advantage of asynchronous communications.",
+      "answer": "High responsiveness (fire-and-forget without blocking) and temporal decoupling (services operate independently of each other's availability)."
+    },
+    {
+      "question": "Give an example of a typical request within the request-based model.",
+      "answer": "A user requesting their order history for the past six months (querying data deterministically)."
+    },
+    {
+      "question": "Give an example of a typical request in an event-based model.",
+      "answer": "Submitting a bid in an online auction, prompting the system to react, compare bids, and notify participants."
+    },
+    {
+      "question": "What is the difference between an initiating event and a processing event in event-driven architecture?",
+      "answer": "An initiating event kicks off the overall flow/workflow; a processing event is generated by an event processor to trigger downstream actions."
+    },
+    {
+      "question": "What are some of the techniques for preventing data loss when sending and receiving messages from a queue?",
+      "answer": "Persistent message queues, client/explicit acknowledgment modes, transactional database commits, and last participant support (LPS)."
+    },
+    {
+      "question": "What are three main driving architecture characteristics for using event-driven architecture?",
+      "answer": "Performance, scalability, and elasticity (plus responsiveness)."
+    },
+    {
+      "question": "What are some of the architecture characteristics that are not well supported in event-driven architecture?",
+      "answer": "Simplicity, testability, and determinism (due to async flow, distributed error handling, and eventual consistency)."
+    },
+    {
+      "question": "Where does space-based architecture get its name from?",
+      "answer": "From the concept of 'tuple space' (parallel processors communicating via shared distributed memory)."
+    },
+    {
+      "question": "What is a primary aspect of space-based architecture that differentiates it from other architecture styles?",
+      "answer": "It removes the central database as a synchronous transactional constraint by caching all active data in-memory across processing units."
+    },
+    {
+      "question": "Name the four components that make up the virtualized middleware within a space-based architecture.",
+      "answer": "Messaging grid, data grid, processing grid, and deployment manager."
+    },
+    {
+      "question": "What is the role of the messaging grid?",
+      "answer": "Manages incoming requests and sessions, routing them to available processing units based on load and availability."
+    },
+    {
+      "question": "What is the role of a data writer in space-based architecture?",
+      "answer": "Asynchronously persists updates from the processing units' in-memory caches to the physical database via data pumps."
+    },
+    {
+      "question": "Under what conditions would a service need to access data through the data reader?",
+      "answer": "During a crash/restart of all processing units of a cache, full redeployment, or retrieving archived data not stored in-memory."
+    },
+    {
+      "question": "Does a small cache size increase or decrease the chances for a data collision?",
+      "answer": "A smaller cache size increases the chance for data collisions (higher probability of concurrent updates to the same cached item)."
+    },
+    {
+      "question": "What is the difference between a replicated cache and a distributed cache? Which one is typically used in space-based architecture?",
+      "answer": "Replicated cache keeps all data on every processing unit; distributed cache partitions data across nodes. Space-based primarily uses replicated caching."
+    },
+    {
+      "question": "List three of the most strongly supported architecture characteristics in space-based architecture.",
+      "answer": "Scalability, elasticity, and performance."
+    },
+    {
+      "question": "Why does testability rate so low for space-based architecture?",
+      "answer": "Simulating extreme concurrent load and in-memory cache replication collisions requires expensive, complex, near-production environments."
+    },
+    {
+      "question": "What was the main driving force behind service-oriented architecture?",
+      "answer": "Enterprise-level reuse of business logic and domain services across multiple disparate systems."
+    },
+    {
+      "question": "What are the four primary service types within a service-oriented architecture?",
+      "answer": "Business services, enterprise services, application services, and infrastructure services."
+    },
+    {
+      "question": "List some of the factors that led to the downfall of service-oriented architecture.",
+      "answer": "Excessive complexity, costly ESBs/tooling, monolithic orchestration engine bottlenecks, extreme coupling, and slow time to market."
+    },
+    {
+      "question": "Is service-oriented architecture technically partitioned or domain partitioned?",
+      "answer": "Technically partitioned (divided into presentation, orchestration bus, technical services, and data layers)."
+    },
+    {
+      "question": "How is domain reuse addressed in SOA? How is operational reuse addressed?",
+      "answer": "Domain reuse via shared enterprise/business services; operational reuse via centralized shared infrastructure services and ESB middleware."
+    },
+    {
+      "question": "Why is the bounded context concept so critical for microservices architecture?",
+      "answer": "It decouples each service's code and data schema from all other services, preventing shared databases and cross-service dependencies."
+    },
+    {
+      "question": "What are three ways of determining if you have the right level of granularity in a microservice?",
+      "answer": "Analyze service cohesion/purpose, transactions/data dependencies (avoiding distributed transactions), and choreography communication overhead."
+    },
+    {
+      "question": "What functionality might be contained within a sidecar?",
+      "answer": "Cross-cutting operational concerns: logging, metrics collection, service discovery, security/mTLS, and circuit breaking."
+    },
+    {
+      "question": "What is the difference between orchestration and choreography? Which does microservices support? Is one communication style easier?",
+      "answer": "Orchestration uses a central coordinator; choreography uses reactive event messaging between services. Microservices supports both, but choreography is preferred/easier for decoupling."
+    },
+    {
+      "question": "What is a saga in microservices?",
+      "answer": "A sequence of local service transactions coordinated to maintain eventual consistency without distributed ACID locks."
+    },
+    {
+      "question": "Why are agility, testability, and deployability so well supported in microservices?",
+      "answer": "Small, decoupled, independently deployable units allow fast isolated automated testing and low-risk deployments."
+    },
+    {
+      "question": "What are two reasons performance is usually an issue in microservices?",
+      "answer": "Network latency from numerous remote interservice calls and endpoint security overhead (authentication/authorization per hop)."
+    },
+    {
+      "question": "Is microservices a domain-partitioned architecture or a technically partitioned one?",
+      "answer": "Domain-partitioned (services are structured around business domains/bounded contexts)."
+    },
+    {
+      "question": "Describe a topology where a microservices ecosystem might be only a single quantum.",
+      "answer": "When all microservices share a single monolithic database or a single tightly-coupled user interface."
+    },
+    {
+      "question": "How was domain reuse addressed in microservices? How was operational reuse addressed?",
+      "answer": "Domain reuse is intentionally avoided (preferring duplication over coupling); operational reuse is handled via shared sidecars/service meshes."
+    },
+    {
+      "question": "In what way does the data architecture influence the choice of architecture style?",
+      "answer": "A centralized relational database favors monolithic or service-based styles; distributed/isolated data models require distributed styles like microservices."
+    },
+    {
+      "question": "How does it influence your choice of architecture style to use?",
+      "answer": "Data coupling and transaction requirements directly dictate whether services can be truly decoupled or must stay together in a single quantum."
+    },
+    {
+      "question": "Delineate the steps an architect uses to determine style of architecture, data partitioning, and communication styles.",
+      "answer": "1. Analyze domain & characteristics; 2. Determine quanta (monolith vs. distributed); 3. Map data partitioning; 4. Select communication style (sync vs. async)."
+    },
+    {
+      "question": "What factor leads an architect toward a distributed architecture?",
+      "answer": "The need for multiple distinct architectural quanta (different parts of the system requiring differing architecture characteristics)."
+    },
+    {
+      "question": "What is the covering your assets anti-pattern?",
+      "answer": "Avoiding or postponing an architecture decision out of fear of making the wrong choice."
+    },
+    {
+      "question": "What are some techniques for avoiding the email-driven architecture anti-pattern?",
+      "answer": "Use formal Architecture Decision Records (ADRs) stored in wikis or version control instead of email threads."
+    },
+    {
+      "question": "What are the five factors Michael Nygard defines for identifying something as architecturally significant?",
+      "answer": "Decisions that affect structure, nonfunctional characteristics, dependencies, interfaces, or construction techniques."
+    },
+    {
+      "question": "What are the five basic sections of an architecture decision record?",
+      "answer": "Title, Status, Context, Decision, and Consequences."
+    },
+    {
+      "question": "In which section of an ADR do you typically add the justification for an architecture decision?",
+      "answer": "The Decision section (explaining why the decision was made)."
+    },
+    {
+      "question": "Assuming you don’t need a separate Alternatives section, in which section of an ADR would you list the alternatives to your proposed solution?",
+      "answer": "The Context section."
+    },
+    {
+      "question": "What are three basic criteria in which you would mark the status of an ADR as Proposed?",
+      "answer": "When it requires review/approval due to high cost, cross-team impact, or significant security implications."
+    },
+    {
+      "question": "What are the two dimensions of the risk assessment matrix?",
+      "answer": "Impact (low, medium, high) and Likelihood (low, medium, high)."
+    },
+    {
+      "question": "What are some ways to show direction of particular risk within a risk assessment? Can you think of other ways to indicate whether risk is getting better or worse?",
+      "answer": "Using plus (+) and minus (-) signs next to risk ratings (plus = improving, minus = degrading); trend charts or color-coded indicators based on fitness function trends."
+    },
+    {
+      "question": "Why is it necessary for risk storming to be a collaborative exercise?",
+      "answer": "No single architect knows all risks or system details; diverse perspectives from architects and developers identify blind spots and reach consensus."
+    },
+    {
+      "question": "Why is it necessary for the identification activity within risk storming to be an individual activity and not a collaborative one?",
+      "answer": "To prevent groupthink, dominant personalities, or premature bias from steering participants away from noticing other risks."
+    },
+    {
+      "question": "What would you do if three participants identified risk as high (6) for a particular area, but another identified it as only medium (3)?",
+      "answer": "Discuss the reasoning collaboratively during the consensus phase to uncover differing assumptions and align on consensus."
+    },
+    {
+      "question": "What risk rating (1-9) would you assign to unproven or unknown technologies?",
+      "answer": "The highest risk rating: 9 (high impact and high likelihood of unforeseen issues)."
+    },
+    {
+      "question": "What is irrational artifact attachment, and why is it significant with respect to documenting and diagramming architecture?",
+      "answer": "The emotional reluctance to discard/change a diagram proportional to how long it took to create; it prevents iterative refactoring of architecture."
+    },
+    {
+      "question": "What do the 4 C’s refer to in the C4 modeling technique?",
+      "answer": "Context, Container, Component, and Class."
+    },
+    {
+      "question": "When diagramming architecture, what do dotted lines between components mean?",
+      "answer": "Asynchronous communication or dynamic/optional dependencies."
+    },
+    {
+      "question": "What is the bullet-riddled corpse anti-pattern? How can you avoid this anti-pattern when creating presentations?",
+      "answer": "Overloading slides with dense bullet points; avoid it by using incremental builds, visual diagrams, and minimal text."
+    },
+    {
+      "question": "What are the two primary information channels a presenter has when giving a presentation?",
+      "answer": "The visual channel (slides/diagrams) and the verbal channel (the speaker's voice)."
+    },
+    {
+      "question": "What are three types of architecture personalities? What type of boundary does each personality create?",
+      "answer": "1. Control freak (tight boundary); 2. Armchair architect (loose boundary); 3. Effective architect (just-right boundary)."
+    },
+    {
+      "question": "What are the five factors that go into determining the level of control you should exhibit on the team?",
+      "answer": "Team familiarity, team size, team experience, project complexity, and project duration."
+    },
+    {
+      "question": "What are three warning signs you can look at to determine if your team is getting too big?",
+      "answer": "Process loss (frequent merge conflicts/Brook's Law), pluralistic ignorance (reluctance to speak up), and diffusion of responsibility (tasks dropped)."
+    },
+    {
+      "question": "List three basic checklists that would be good for a development team.",
+      "answer": "Developer code completion checklist, unit and functional testing checklist, and software release checklist."
+    },
+    {
+      "question": "Why is negotiation so important as an architect?",
+      "answer": "Almost every architectural decision will be challenged by developers, other architects, or business stakeholders regarding cost, time, or approach."
+    },
+    {
+      "question": "Name some negotiation techniques when a business stakeholder insists on five nines of availability, but only three nines are really needed.",
+      "answer": "Translate 'nines' into concrete downtime (minutes/seconds per day), research costs beforehand, and use the divide-and-conquer rule to scope high availability to critical sub-areas."
+    },
+    {
+      "question": "What can you derive from a business stakeholder telling you 'I needed it yesterday'?",
+      "answer": "Time-to-market is their top priority and primary driving concern."
+    },
+    {
+      "question": "Why is it important to save a discussion about time and cost for last in a negotiation?",
+      "answer": "First agree on the problem, technical validity, and business value; discussing cost early terminates creative solution finding before value is understood."
+    },
+    {
+      "question": "What is the divide-and-conquer rule? How can it be applied when negotiating architecture characteristics with a business stakeholder? Provide an example.",
+      "answer": "Isolate demands to specific parts of the system; e.g., if a stakeholder asks for 99.999% availability, apply it only to the core trade-execution engine rather than the whole system."
+    },
+    {
+      "question": "List the 4 C’s of architecture.",
+      "answer": "Communication, collaboration, clarity, and conciseness."
+    },
+    {
+      "question": "Explain why it is important for an architect to be both pragmatic and visionary.",
+      "answer": "Visionary provides innovative technical direction, while pragmatic ensures solutions are realistic within budget, time, and team skill constraints."
+    },
+    {
+      "question": "What are some techniques for managing and reducing the number of meetings you are invited to?",
+      "answer": "Delegate to tech leads, ask for an agenda beforehand, decline meetings where you are optional, and establish clear architectural guidance so teams decide independently."
+    },
+    {
+      "question": "What is the 20-minute rule, and when is it best to apply it?",
+      "answer": "Dedicate at least 20 minutes every day to career development and broadening technical breadth; best applied first thing in the morning before checking email."
+    },
+    {
+      "question": "What are the four rings in the ThoughtWorks technology radar, and what do they mean? How can they be applied to your radar?",
+      "answer": "Hold (avoid/stop using), Assess (explore/research impact), Trial (pilot on low-risk projects), and Adopt (use as standard best practice)."
+    },
+    {
+      "question": "Describe the difference between depth and breadth of knowledge as it applies to software architects. Which should architects aspire to maximize?",
+      "answer": "Technical depth is knowing a few technologies deeply; technical breadth is knowing about a wide variety of technologies and their trade-offs. Architects should maximize breadth."
+    }
+  ]
+}
