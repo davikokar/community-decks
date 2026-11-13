@@ -1,0 +1,89 @@
+{
+  "deck_id": "10fbfb00-08ef-48b0-a142-fccdea1e06f6",
+  "author_hash": "4a71729ad9867707bf1bcdc7db838b022390f3fc556be51a826f72f3e37a8a0c",
+  "title": "English-German",
+  "description": "Work related words.",
+  "category": "default_languages",
+  "cards": [
+    {
+      "question": "the dependency<br /><i>I updated the project dependency.</i>",
+      "answer": "die Abhängigkeit<br /><i>Ich habe die Projektabhängigkeit aktualisiert.</i>"
+    },
+    {
+      "question": "the contract<br /><i>I signed the consulting contract.</i>",
+      "answer": "der Vertrag<br /><i>Ich habe den Beratungsvertrag unterschrieben.</i>"
+    },
+    {
+      "question": "to swap / to exchange<br /><i>I swapped the faulty hard drive.</i>",
+      "answer": "auswechseln<br /><i>Ich habe die defekte Festplatte ausgewechselt.</i>"
+    },
+    {
+      "question": "to replace<br /><i>I replaced the legacy library.</i>",
+      "answer": "ersetzen<br /><i>Ich habe die veraltete Bibliothek ersetzt.</i>"
+    },
+    {
+      "question": "the access<br /><i>I requested database access.</i>",
+      "answer": "der Zugriff<br /><i>Ich habe den Zugriff auf die Datenbank angefordert.</i>"
+    },
+    {
+      "question": "to reproduce<br /><i>I reproduced the bug locally.</i>",
+      "answer": "reproduzieren<br /><i>Ich habe den Fehler lokal reproduziert.</i>"
+    },
+    {
+      "question": "to assign<br /><i>I assigned the ticket to the developer.</i>",
+      "answer": "zuweisen<br /><i>Ich habe das Ticket dem Entwickler zugewiesen.</i>"
+    },
+    {
+      "question": "to commit / to obligate<br /><i>I committed myself to the deadline.</i>",
+      "answer": "verpflichten<br /><i>Ich habe mich zur Einhaltung der Frist verpflichtet.</i>"
+    },
+    {
+      "question": "to inherit<br /><i>I inherited the properties from the base class.</i>",
+      "answer": "vererben<br /><i>Ich habe die Eigenschaften von der Basisklasse vererbt.</i>"
+    },
+    {
+      "question": "to be missing / to lack<br /><i>I noticed that a parameter is missing.</i>",
+      "answer": "fehlen<br /><i>Ich habe bemerkt, dass ein Parameter fehlt.</i>"
+    },
+    {
+      "question": "to add<br /><i>I added a new endpoint to the API.</i>",
+      "answer": "hinzufügen<br /><i>Ich habe einen neuen Endpunkt zur API hinzugefügt.</i>"
+    },
+    {
+      "question": "to remove<br /><i>I removed the unused variables.</i>",
+      "answer": "entfernen<br /><i>Ich habe die ungenutzten Variablen entfernt.</i>"
+    },
+    {
+      "question": "the department<br /><i>I contacted the IT department.</i>",
+      "answer": "die Abteilung<br /><i>Ich habe die IT-Abteilung kontaktiert.</i>"
+    },
+    {
+      "question": "the service<br /><i>I restarted the background service.</i>",
+      "answer": "der Dienst<br /><i>Ich habe den Hintergrunddienst neu gestartet.</i>"
+    },
+    {
+      "question": "to arrange / to agree on<br /><i>I arranged a meeting with the client.</i>",
+      "answer": "abmachen<br /><i>Ich habe einen Termin mit dem Kunden abgemacht.</i>"
+    },
+    {
+      "question": "to postpone / to move<br /><i>I postponed the release to next week.</i>",
+      "answer": "verschieben<br /><i>Ich habe das Release auf nächste Woche verschoben.</i>"
+    },
+    {
+      "question": "to confirm<br /><i>I confirmed the deployment schedule.</i>",
+      "answer": "bestätigen<br /><i>Ich habe den Zeitplan für das Deployment bestätigt.</i>"
+    },
+    {
+      "question": "to cancel<br /><i>I canceled the daily standup.</i>",
+      "answer": "absagen<br /><i>Ich habe das Daily Standup abgesagt.</i>"
+    },
+    {
+      "question": "to bring forward<br /><i>I brought the sprint review forward.</i>",
+      "answer": "vorziehen<br /><i>Ich habe das Sprint Review vorgezogen.</i>"
+    },
+    {
+      "question": "the instruction / statement<br /><i>I executed the SQL statement.</i>",
+      "answer": "die Anweisung<br /><i>Ich habe die SQL-Anweisung ausgeführt.</i>"
+    }
+  ]
+}
