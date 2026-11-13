@@ -1,0 +1,209 @@
+{
+  "deck_id": "9dcf6677-0c8a-4e59-b48e-b3ccb07193e8",
+  "author_hash": "c88034a322aa76e6c6bb003eebc015529a80e1cd32975ce4514b80712b3e9263",
+  "title": "Basic Astronomy",
+  "description": "Solar systems and more.",
+  "category": "default_astronomy",
+  "cards": [
+    {
+      "question": "What is an internal planet?",
+      "answer": "A planet whose orbit lies inside the asteroid belt (Mercury, Venus, Earth, Mars), also known as a terrestrial planet."
+    },
+    {
+      "question": "Which are the gas giant planets in our solar system?",
+      "answer": "Jupiter and Saturn."
+    },
+    {
+      "question": "Which are the ice giant planets in our solar system?",
+      "answer": "Uranus and Neptune."
+    },
+    {
+      "question": "What is the hottest planet in our solar system?",
+      "answer": "Venus, due to its dense atmosphere rich in carbon dioxide creating a extreme greenhouse effect."
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "answer": "Jupiter."
+    },
+    {
+      "question": "What is the smallest planet in our solar system?",
+      "answer": "Mercury."
+    },
+    {
+      "question": "List all the planets in order from closest to furthest from the Sun.",
+      "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune."
+    },
+    {
+      "question": "Which planets display phases to Earth observers and why?",
+      "answer": "Mercury and Venus (the inferior planets), because their orbits lie inside Earth's orbit, allowing us to view different angles of their sunlit halves."
+    },
+    {
+      "question": "On which planet does a day last longer than a year?",
+      "answer": "Venus. It takes 243 Earth days to rotate once on its axis (sidereal day) and 225 Earth days to orbit the Sun."
+    },
+    {
+      "question": "How long is a Martian year?",
+      "answer": "Approximately 687 Earth days (or about 1.88 Earth years)."
+    },
+    {
+      "question": "What is the size of the Moon compared to the size of the Earth?",
+      "answer": "The Moon's diameter is about 1/4 (27%) of Earth's diameter, and its volume is about 1/50 of Earth's volume."
+    },
+    {
+      "question": "How old is the Sun and when will it collapse?",
+      "answer": "The Sun is about 4.6 billion years old; it will expand into a red giant and collapse into a white dwarf in about 5 billion years."
+    },
+    {
+      "question": "Which planet has the most extreme temperature fluctuations between day and night?",
+      "answer": "Mercury, ranging from about 430°C (800°F) during the day to -180°C (-290°F) at night due to its lack of a thick atmosphere."
+    },
+    {
+      "question": "What gives Mars its characteristic red color?",
+      "answer": "Iron oxide (rust) covering its surface rocks and regolith."
+    },
+    {
+      "question": "What is Olympus Mons and on which planet is it located?",
+      "answer": "Olympus Mons is the largest volcano in the solar system, located on Mars."
+    },
+    {
+      "question": "Which planet has the fastest rotational period (shortest day)?",
+      "answer": "Jupiter, with a day lasting only about 9 hours and 55 minutes."
+    },
+    {
+      "question": "What are the Saturnian rings primarily composed of?",
+      "answer": "Chunks of ice, dust, and rocky debris ranging in size from tiny grains to mountain-sized boulders."
+    },
+    {
+      "question": "Why is Uranus tilted on its side, and what is its axial tilt?",
+      "answer": "It has an axial tilt of about 97.8°, likely caused by a massive collision with a Earth-sized protoplanet early in its history."
+    },
+    {
+      "question": "Which planet has the fastest winds recorded in the solar system?",
+      "answer": "Neptune, where supersonic winds can reach speeds over 2,000 km/h (1,200 mph)."
+    },
+    {
+      "question": "What is the Great Red Spot on Jupiter?",
+      "answer": "A persistent, giant anticyclonic storm larger than Earth that has been raging for centuries."
+    },
+    {
+      "question": "Why is Pluto no longer classified as a major planet?",
+      "answer": "In 2006, the IAU reclassified Pluto as a dwarf planet because it has not cleared its orbital neighborhood of other objects."
+    },
+    {
+      "question": "Which moon in the solar system is the only one known to have a dense atmosphere?",
+      "answer": "Titan, the largest moon of Saturn."
+    },
+    {
+      "question": "Which moon in the solar system is the most volcanically active body?",
+      "answer": "Io, one of Jupiter's Galilean moons."
+    },
+    {
+      "question": "What is the Roche limit?",
+      "answer": "The minimum distance to which a celestial body, held together only by its own gravity, can approach a second body without being torn apart by tidal forces."
+    },
+    {
+      "question": "What are the Galilean moons, and who discovered them?",
+      "answer": "Io, Europa, Ganymede, and Callisto; they were discovered by Galileo Galilei in 1610."
+    },
+    {
+      "question": "Which solar system moon is considered a top candidate for extraterrestrial life due to its subsurface ocean?",
+      "answer": "Europa (Jupiter's moon), which harbors a global liquid water ocean beneath its icy crust."
+    },
+    {
+      "question": "What is a light-year?",
+      "answer": "The distance that light travels in one vacuum year, approximately 9.46 trillion kilometers."
+    },
+    {
+      "question": "What is an astronomical unit (AU)?",
+      "answer": "The average distance between the Earth and the Sun, roughly 149.6 million kilometers."
+    },
+    {
+      "question": "What galaxy is our solar system located in?",
+      "answer": "The Milky Way galaxy."
+    },
+    {
+      "question": "What type of galaxy is the Milky Way?",
+      "answer": "A barred spiral galaxy."
+    },
+    {
+      "question": "What is the closest star to Earth other than the Sun?",
+      "answer": "Proxima Centauri."
+    },
+    {
+      "question": "What is a supernova?",
+      "answer": "A powerful and luminous explosion of a star during its last evolutionary stages."
+    },
+    {
+      "question": "What is a neutron star?",
+      "answer": "The extremely dense collapsed core of a massive supergiant star."
+    },
+    {
+      "question": "What is a pulsar?",
+      "answer": "A highly magnetized rotating neutron star that emits beams of electromagnetic radiation."
+    },
+    {
+      "question": "What is an exoplanet?",
+      "answer": "A planet that orbits a star outside our solar system."
+    },
+    {
+      "question": "What is the event horizon of a black hole?",
+      "answer": "The boundary around a black hole beyond which nothing, not even light, can escape."
+    },
+    {
+      "question": "What is the main component of the Sun by mass?",
+      "answer": "Hydrogen (followed by Helium)."
+    },
+    {
+      "question": "What process powers stars like our Sun?",
+      "answer": "Nuclear fusion (converting hydrogen into helium in their cores)."
+    },
+    {
+      "question": "What is the Kuiper Belt?",
+      "answer": "A region of the solar system beyond the orbit of Neptune containing many small icy bodies and dwarf planets."
+    },
+    {
+      "question": "What is the Oort Cloud?",
+      "answer": "A theoretical spherical cloud of predominantly icy planetesimals surrounding the solar system."
+    },
+    {
+      "question": "What is a dwarf planet?",
+      "answer": "A celestial body orbiting the Sun that has enough mass to be spherical but has not cleared its orbital neighborhood (e.g., Pluto)."
+    },
+    {
+      "question": "What is an asteroid?",
+      "answer": "A small, rocky body orbiting the Sun, mostly found in the Asteroid Belt between Mars and Jupiter."
+    },
+    {
+      "question": "What is a comet?",
+      "answer": "A celestial object made of ice, dust, and rock that develops a visible tail when passing close to the Sun."
+    },
+    {
+      "question": "What is the difference between a meteoroid, meteor, and meteorite?",
+      "answer": "A meteoroid is in space, a meteor is the streak of light as it burns in Earth's atmosphere, and a meteorite is the remnant that hits the ground."
+    },
+    {
+      "question": "What is the main cause of tides on Earth?",
+      "answer": "The gravitational pull of the Moon, along with the Sun."
+    },
+    {
+      "question": "What is a lunar eclipse?",
+      "answer": "An event that occurs when Earth passes directly between the Sun and the Moon, casting a shadow on the Moon."
+    },
+    {
+      "question": "What is a solar eclipse?",
+      "answer": "An event that occurs when the Moon passes directly between Earth and the Sun, blocking sunlight."
+    },
+    {
+      "question": "What is the nebula hypothesis?",
+      "answer": "The leading model explaining the formation and evolution of the solar system from a giant molecular cloud."
+    },
+    {
+      "question": "What is dark matter?",
+      "answer": "A hypothetical form of matter that does not interact with light or electromagnetic fields, making up about 85% of cosmic matter."
+    },
+    {
+      "question": "What is the Big Bang theory?",
+      "answer": "The prevailing cosmological model describing the early development and expansion of the universe from a high-density, high-temperature state."
+    }
+  ]
+}
