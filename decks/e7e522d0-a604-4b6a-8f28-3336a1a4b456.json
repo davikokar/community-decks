@@ -1,0 +1,249 @@
+{
+  "deck_id": "e7e522d0-a604-4b6a-8f28-3336a1a4b456",
+  "author_hash": "4a71729ad9867707bf1bcdc7db838b022390f3fc556be51a826f72f3e37a8a0c",
+  "title": "English-Denglish",
+  "description": "IT english words in german",
+  "category": "default_languages",
+  "cards": [
+    {
+      "question": "the service<br /><i>I restarted the service.</i>",
+      "answer": "Der Service<br /><i>Ich habe den Service neu gestartet.</i>"
+    },
+    {
+      "question": "the database<br /><i>I queried the database.</i>",
+      "answer": "Die Database<br /><i>Ich habe die Database abgefragt.</i>"
+    },
+    {
+      "question": "the bug<br /><i>I fixed the bug.</i>",
+      "answer": "Der Bug<br /><i>Ich habe den Bug gefixt.</i>"
+    },
+    {
+      "question": "the server<br /><i>I rebooted the server.</i>",
+      "answer": "Der Server<br /><i>Ich habe den Server rebootet.</i>"
+    },
+    {
+      "question": "the commit<br /><i>I pushed the commit.</i>",
+      "answer": "Der Commit<br /><i>Ich habe den Commit gepusht.</i>"
+    },
+    {
+      "question": "the refactoring<br /><i>I finished the refactoring.</i>",
+      "answer": "Das Refactoring<br /><i>Ich habe das Refactoring abgeschlossen.</i>"
+    },
+    {
+      "question": "the tool<br /><i>I installed the tool.</i>",
+      "answer": "Das Tool<br /><i>Ich habe das Tool installiert.</i>"
+    },
+    {
+      "question": "the frontend<br /><i>I updated the frontend.</i>",
+      "answer": "Das Frontend<br /><i>Ich habe das Frontend geupdatet.</i>"
+    },
+    {
+      "question": "the backend<br /><i>I tested the backend.</i>",
+      "answer": "Das Backend<br /><i>Ich habe das Backend getestet.</i>"
+    },
+    {
+      "question": "the cloud<br /><i>I deployed it to the cloud.</i>",
+      "answer": "Die Cloud<br /><i>Ich habe es in die Cloud deployt.</i>"
+    },
+    {
+      "question": "the compiler<br /><i>I ran the compiler.</i>",
+      "answer": "Der Compiler<br /><i>Ich habe den Compiler gestartet.</i>"
+    },
+    {
+      "question": "the exception<br /><i>I caught the exception.</i>",
+      "answer": "Die Exception<br /><i>Ich habe die Exception abgefangen.</i>"
+    },
+    {
+      "question": "the release<br /><i>I prepared the release.</i>",
+      "answer": "Das Release<br /><i>Ich habe das Release vorbereitet.</i>"
+    },
+    {
+      "question": "the deployment<br /><i>I triggered the deployment.</i>",
+      "answer": "Das Deployment<br /><i>Ich habe das Deployment getriggert.</i>"
+    },
+    {
+      "question": "the pull request<br /><i>I approved the pull request.</i>",
+      "answer": "Der Pull-Request<br /><i>Ich habe den Pull-Request genehmigt.</i>"
+    },
+    {
+      "question": "the repository<br /><i>I cloned the repository.</i>",
+      "answer": "Das Repository<br /><i>Ich habe das Repository geklont.</i>"
+    },
+    {
+      "question": "the branch<br /><i>I merged the branch.</i>",
+      "answer": "Der Branch<br /><i>Ich habe den Branch gemergt.</i>"
+    },
+    {
+      "question": "the framework<br /><i>I upgraded the framework.</i>",
+      "answer": "Das Framework<br /><i>Ich habe das Framework geupgradet.</i>"
+    },
+    {
+      "question": "the feature<br /><i>I implemented the feature.</i>",
+      "answer": "Das Feature<br /><i>Ich habe das Feature implementiert.</i>"
+    },
+    {
+      "question": "the hotfix<br /><i>I deployed the hotfix.</i>",
+      "answer": "Der Hotfix<br /><i>Ich habe den Hotfix deployt.</i>"
+    },
+    {
+      "question": "the ticket<br /><i>I closed the ticket.</i>",
+      "answer": "Das Ticket<br /><i>Ich habe das Ticket geschlossen.</i>"
+    },
+    {
+      "question": "the sprint<br /><i>I planned the sprint.</i>",
+      "answer": "Der Sprint<br /><i>Ich habe den Sprint geplant.</i>"
+    },
+    {
+      "question": "the backlog<br /><i>I prioritized the backlog.</i>",
+      "answer": "Das Backlog<br /><i>Ich habe das Backlog priorisiert.</i>"
+    },
+    {
+      "question": "the code<br /><i>I reviewed the code.</i>",
+      "answer": "Der Code<br /><i>Ich habe den Code reviewt.</i>"
+    },
+    {
+      "question": "the script<br /><i>I executed the script.</i>",
+      "answer": "Das Script<br /><i>Ich habe das Script ausgeführt.</i>"
+    },
+    {
+      "question": "the container<br /><i>I started the container.</i>",
+      "answer": "Der Container<br /><i>Ich habe den Container gestartet.</i>"
+    },
+    {
+      "question": "the cluster<br /><i>I scaled the cluster.</i>",
+      "answer": "Das Cluster<br /><i>Ich habe das Cluster skaliert.</i>"
+    },
+    {
+      "question": "the pipeline<br /><i>I fixed the pipeline.</i>",
+      "answer": "Die Pipeline<br /><i>Ich habe die Pipeline gefixt.</i>"
+    },
+    {
+      "question": "the provider<br /><i>I changed the provider.</i>",
+      "answer": "Der Provider<br /><i>Ich habe den Provider gewechselt.</i>"
+    },
+    {
+      "question": "the token<br /><i>I refreshed the token.</i>",
+      "answer": "Das Token<br /><i>Ich habe das Token erneuert.</i>"
+    },
+    {
+      "question": "the backup<br /><i>I restored the backup.</i>",
+      "answer": "Das Backup<br /><i>Ich habe das Backup wiederhergestellt.</i>"
+    },
+    {
+      "question": "the admin<br /><i>I contacted the admin.</i>",
+      "answer": "Der Admin<br /><i>Ich habe den Admin kontaktiert.</i>"
+    },
+    {
+      "question": "the interface<br /><i>I designed the interface.</i>",
+      "answer": "Das Interface<br /><i>Ich habe das Interface entworfen.</i>"
+    },
+    {
+      "question": "the API<br /><i>I called the API.</i>",
+      "answer": "Die API<br /><i>Ich habe die API aufgerufen.</i>"
+    },
+    {
+      "question": "the update<br /><i>I downloaded the update.</i>",
+      "answer": "Das Update<br /><i>Ich habe das Update gedownloadet.</i>"
+    },
+    {
+      "question": "the crash<br /><i>I analyzed the crash.</i>",
+      "answer": "Der Crash<br /><i>Ich habe den Crash analysiert.</i>"
+    },
+    {
+      "question": "the download<br /><i>I paused the download.</i>",
+      "answer": "Der Download<br /><i>Ich habe den Download pausiert.</i>"
+    },
+    {
+      "question": "the upload<br /><i>I started the upload.</i>",
+      "answer": "Der Upload<br /><i>Ich habe den Upload gestartet.</i>"
+    },
+    {
+      "question": "the load balancer<br /><i>I configured the load balancer.</i>",
+      "answer": "Der Loadbalancer<br /><i>Ich habe den Loadbalancer konfiguriert.</i>"
+    },
+    {
+      "question": "the setup<br /><i>I completed the setup.</i>",
+      "answer": "Das Setup<br /><i>Ich habe das Setup abgeschlossen.</i>"
+    },
+    {
+      "question": "to commit<br /><i>I committed the code.</i>",
+      "answer": "committen<br /><i>Ich habe den Code committet.</i>"
+    },
+    {
+      "question": "to push<br /><i>I pushed the changes.</i>",
+      "answer": "pushen<br /><i>Ich habe die Änderungen gepusht.</i>"
+    },
+    {
+      "question": "to pull<br /><i>I pulled the latest version.</i>",
+      "answer": "pullen<br /><i>Ich habe die neueste Version gepullt.</i>"
+    },
+    {
+      "question": "to merge<br /><i>I merged the branches.</i>",
+      "answer": "mergen<br /><i>Ich habe die Branches gemergt.</i>"
+    },
+    {
+      "question": "to deploy<br /><i>I deployed the application.</i>",
+      "answer": "deployen<br /><i>Ich habe die Anwendung deployt.</i>"
+    },
+    {
+      "question": "to refactor<br /><i>I refactored the class.</i>",
+      "answer": "refactoren<br /><i>Ich habe die Klasse refactort.</i>"
+    },
+    {
+      "question": "to debug<br /><i>I debugged the function.</i>",
+      "answer": "debuggen<br /><i>Ich habe die Funktion debuggt.</i>"
+    },
+    {
+      "question": "to fix<br /><i>I fixed the issue.</i>",
+      "answer": "fixen<br /><i>Ich habe das Problem gefixt.</i>"
+    },
+    {
+      "question": "to update<br /><i>I updated the system.</i>",
+      "answer": "updaten<br /><i>Ich habe das System geupdatet.</i>"
+    },
+    {
+      "question": "to upgrade<br /><i>I upgraded the server.</i>",
+      "answer": "upgraden<br /><i>Ich habe den Server geupgradet.</i>"
+    },
+    {
+      "question": "to download<br /><i>I downloaded the file.</i>",
+      "answer": "downloaden<br /><i>Ich habe die Datei gedownloadet.</i>"
+    },
+    {
+      "question": "to upload<br /><i>I uploaded the logs.</i>",
+      "answer": "uploaden<br /><i>Ich habe die Logs geuploadet.</i>"
+    },
+    {
+      "question": "to crash<br /><i>I crashed the test environment.</i>",
+      "answer": "crashen<br /><i>Ich habe die Testumgebung gecrasht.</i>"
+    },
+    {
+      "question": "to boot<br /><i>I booted the machine.</i>",
+      "answer": "booten<br /><i>Ich habe den Rechner gebootet.</i>"
+    },
+    {
+      "question": "to map<br /><i>I mapped the fields.</i>",
+      "answer": "mappen<br /><i>Ich habe die Felder gemappt.</i>"
+    },
+    {
+      "question": "to parse<br /><i>I parsed the response.</i>",
+      "answer": "parsen<br /><i>Ich habe die Antwort geparst.</i>"
+    },
+    {
+      "question": "to render<br /><i>I rendered the page.</i>",
+      "answer": "renderen<br /><i>Ich habe die Seite gerendert.</i>"
+    },
+    {
+      "question": "to cache<br /><i>I cached the results.</i>",
+      "answer": "cachen<br /><i>Ich habe die Ergebnisse gecacht.</i>"
+    },
+    {
+      "question": "to trigger<br /><i>I triggered the build.</i>",
+      "answer": "triggern<br /><i>Ich habe den Build getriggert.</i>"
+    },
+    {
+      "question": "to review<br /><i>I reviewed the pull request.</i>",
+      "answer": "reviewen<br /><i>Ich habe den Pull-Request reviewt.</i>"
+    }
+  ]
+}
