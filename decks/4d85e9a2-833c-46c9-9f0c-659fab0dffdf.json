@@ -1,0 +1,209 @@
+{
+  "deck_id": "4d85e9a2-833c-46c9-9f0c-659fab0dffdf",
+  "author_hash": "c88034a322aa76e6c6bb003eebc015529a80e1cd32975ce4514b80712b3e9263",
+  "title": "Domain driven design",
+  "description": "According to Eric Evans",
+  "category": "default_computer_science",
+  "cards": [
+    {
+      "question": "What is the primary premise of Domain-Driven Design (DDD)?",
+      "answer": "The primary complexity in enterprise software lies in the business domain itself, not in technical plumbing."
+    },
+    {
+      "question": "What is a domain model according to Eric Evans?",
+      "answer": "A rigorously organized and selective abstraction of domain knowledge designed to solve specific software problems."
+    },
+    {
+      "question": "What is Knowledge Crunching in DDD?",
+      "answer": "An intense, collaborative process where developers and domain experts distill chaotic information into a practical model."
+    },
+    {
+      "question": "What is the Ubiquitous Language?",
+      "answer": "A shared, rigorous vocabulary derived from the domain model, used by all team members in speech, writing, diagrams, and code."
+    },
+    {
+      "question": "Why is translation between developers and business experts harmful?",
+      "answer": "Translation is inexact, hides misunderstandings, creates bottlenecks, and prevents deep model insights."
+    },
+    {
+      "question": "What should happen when the Ubiquitous Language changes?",
+      "answer": "The software code and diagrams must be immediately refactored to reflect the updated vocabulary."
+    },
+    {
+      "question": "What is Model-Driven Design?",
+      "answer": "A design approach where the software code directly and slavishly mirrors the conceptual domain model."
+    },
+    {
+      "question": "What is the Hands-On Modeler principle?",
+      "answer": "Anyone who contributes to the domain model must also spend time writing and touching the code."
+    },
+    {
+      "question": "Why does dividing architects from programmers fail in DDD?",
+      "answer": "Architects lose touch with implementation realities, and programmers inadvertently invent their own naive models."
+    },
+    {
+      "question": "What is the role of an automated prototype in early knowledge crunching?",
+      "answer": "It immediately binds the model to working code, tests behavior without infrastructure, and provides feedback."
+    },
+    {
+      "question": "What are the four primary layers in a traditional DDD Layered Architecture?",
+      "answer": "User Interface (Presentation), Application Layer, Domain Layer, and Infrastructure Layer."
+    },
+    {
+      "question": "What is the sole responsibility of the Application Layer?",
+      "answer": "To direct the flow of software tasks, coordinate domain objects, and manage transactions without holding business rules."
+    },
+    {
+      "question": "Which layer in DDD is responsible for holding business rules and state?",
+      "answer": "The Domain Layer."
+    },
+    {
+      "question": "What is the Smart UI anti-pattern?",
+      "answer": "Embedding business logic directly into user interface controls, preventing automated domain testing and model growth."
+    },
+    {
+      "question": "What is an Entity in DDD?",
+      "answer": "An object defined primarily by a continuous thread of identity that runs through time, rather than by its attributes."
+    },
+    {
+      "question": "What is a Value Object in DDD?",
+      "answer": "An object that describes domain characteristics with no conceptual identity, caring only about what it is, not who it is."
+    },
+    {
+      "question": "Why should Value Objects be immutable?",
+      "answer": "Immutability allows them to be freely shared, copied, and passed safely without concurrency or side-effect risks."
+    },
+    {
+      "question": "What is a Conceptual Whole in Value Object design?",
+      "answer": "Grouping logically related attributes into a single cohesive object, such as Street, City, and Zip into Address."
+    },
+    {
+      "question": "Can an Address be an Entity in one system and a Value Object in another?",
+      "answer": "Yes, depending on whether the domain tracks its identity (postal routing) or treats it as an attribute (order shipping)."
+    },
+    {
+      "question": "What is a Domain Service?",
+      "answer": "A standalone, stateless operation in the domain model that represents an action or process not natural to an Entity or Value Object."
+    },
+    {
+      "question": "What is the defining characteristic of a Domain Service's state?",
+      "answer": "It is completely stateless; it does not retain mutable state between client invocations."
+    },
+    {
+      "question": "How do Domain Services differ from Application Services?",
+      "answer": "Domain Services enforce fundamental business rules; Application Services merely coordinate tasks and workflows."
+    },
+    {
+      "question": "What should drive the packaging of classes into Modules in DDD?",
+      "answer": "Conceptual cohesion and telling the domain story, rather than technical architecture or framework layers."
+    },
+    {
+      "question": "What is an Aggregate in DDD?",
+      "answer": "A cluster of associated Entities and Value Objects treated as a single consistency unit for data changes."
+    },
+    {
+      "question": "What is the Aggregate Root?",
+      "answer": "The single designated Entity through which external objects must navigate to access or modify anything inside the Aggregate."
+    },
+    {
+      "question": "What is the external reference rule for Aggregates?",
+      "answer": "External objects can only hold persistent references to the Aggregate Root, never to internal entities."
+    },
+    {
+      "question": "What is an invariant in DDD?",
+      "answer": "A consistency rule that must always be satisfied whenever data changes within an Aggregate boundary."
+    },
+    {
+      "question": "When must invariants within an Aggregate be satisfied?",
+      "answer": "Synchronously upon the completion of every transactional state change."
+    },
+    {
+      "question": "How are internal entities within an Aggregate identified?",
+      "answer": "They possess local identity, which only needs to be unique within that specific Aggregate boundary."
+    },
+    {
+      "question": "How does deleting an Aggregate Root affect its internal objects?",
+      "answer": "Deleting the root immediately and atomically removes all internal entities and values within the Aggregate boundary."
+    },
+    {
+      "question": "What is the primary role of a Factory in DDD?",
+      "answer": "To encapsulate complex creation and reconstitution logic, ensuring objects and Aggregates start life fully valid."
+    },
+    {
+      "question": "What is the difference between object creation and reconstitution in a Factory?",
+      "answer": "Creation assigns a new tracking identity; reconstitution reassembles stored state preserving the existing identity."
+    },
+    {
+      "question": "What is a Repository in DDD?",
+      "answer": "An object providing the illusion of an in-memory collection to retrieve and persist Aggregate Roots."
+    },
+    {
+      "question": "For which domain objects should Repositories be provided?",
+      "answer": "Strictly for Aggregate Roots that require direct, global search access."
+    },
+    {
+      "question": "Why should internal Aggregate members NOT have their own Repositories?",
+      "answer": "Direct external access breaches the Aggregate encapsulation and bypasses the root's invariant enforcement."
+    },
+    {
+      "question": "Who should control database transaction commits when using Repositories?",
+      "answer": "The client Application Layer, so it can manage the scope of broader units of work."
+    },
+    {
+      "question": "What is a Deep Model in DDD?",
+      "answer": "A model that sloughs off superficial details to express the primary, incisive concerns of domain experts."
+    },
+    {
+      "question": "What does it mean to make implicit concepts explicit?",
+      "answer": "Elevating hidden business rules, constraints, and processes into named, first-class domain objects."
+    },
+    {
+      "question": "What is the Specification pattern in DDD?",
+      "answer": "A predicate-like Value Object that tests whether a candidate object satisfies specific business criteria."
+    },
+    {
+      "question": "What are the three fundamental uses of a Specification?",
+      "answer": "Validation of in-memory objects, selection/querying of stored objects, and building-to-order new objects."
+    },
+    {
+      "question": "What is Subsumption in the Specification pattern?",
+      "answer": "Checking whether one Specification logically implies another, meaning satisfying the new spec guarantees satisfying the old one."
+    },
+    {
+      "question": "What is an Intention-Revealing Interface?",
+      "answer": "Naming classes and operations to describe their business intent and effect, without revealing how they work."
+    },
+    {
+      "question": "What is a Side-Effect-Free Function?",
+      "answer": "An operation that computes and returns a result without causing any observable change to system state."
+    },
+    {
+      "question": "How does Command-Query Separation support Supple Design?",
+      "answer": "By segregating state-modifying Commands from pure, side-effect-free Queries, making code predictable and testable."
+    },
+    {
+      "question": "What are Assertions in DDD?",
+      "answer": "Explicit statements of method preconditions, post-conditions, and class invariants, verified via automated unit tests."
+    },
+    {
+      "question": "What is the Conceptual Contours pattern?",
+      "answer": "Decomposing domain elements along natural axes of stability and change, matching the natural grain of the business."
+    },
+    {
+      "question": "What is a Standalone Class?",
+      "answer": "A class with zero non-essential dependencies that can be understood, reasoned about, and tested completely alone."
+    },
+    {
+      "question": "What is Closure of Operations?",
+      "answer": "An operation whose return type is identical to the type of its input arguments, enabling seamless chaining."
+    },
+    {
+      "question": "What is a Bounded Context?",
+      "answer": "The explicit boundary within which a specific domain model applies and maintains strict internal consistency."
+    },
+    {
+      "question": "What is a False Cognate in domain modeling?",
+      "answer": "When two teams use the exact same term to mean two fundamentally different concepts, causing model confusion."
+    }
+  ]
+}
