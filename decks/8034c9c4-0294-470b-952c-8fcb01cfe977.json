@@ -1,0 +1,249 @@
+{
+  "deck_id": "8034c9c4-0294-470b-952c-8fcb01cfe977",
+  "author_hash": "87b8619986a610c899b1db1a25188ec5d5f51aa951f5d191255979a31b1ce2a9",
+  "title": "Building evolutionary architecture",
+  "description": "Software architecture",
+  "category": "default_computer_science",
+  "cards": [
+    {
+      "question": "What is the definition of an evolutionary architecture?",
+      "answer": "An architecture supporting guided, incremental change across multiple dimensions."
+    },
+    {
+      "question": "What does dynamic equilibrium mean in software architecture?",
+      "answer": "A state where the system must constantly adjust to maintain balance amid continuous ecosystem changes."
+    },
+    {
+      "question": "What visual metaphor illustrates dynamic equilibrium in the book?",
+      "answer": "A unicyclist carrying boxes who must continuously adjust balance as new boxes are added."
+    },
+    {
+      "question": "Why is software evolvability termed an architectural meta-characteristic?",
+      "answer": "Because it acts as a protective wrapper preserving other architectural characteristics like scalability and security over time."
+    },
+    {
+      "question": "How does Melvin Conway's Law describe system design?",
+      "answer": "Organizations are constrained to produce designs that copy the communication structures of the organization."
+    },
+    {
+      "question": "What is the Inverse Conway Maneuver?",
+      "answer": "Structuring engineering teams to match the target architecture rather than adapting the architecture to team silos."
+    },
+    {
+      "question": "What is an architectural fitness function?",
+      "answer": "An objective function providing an integrity assessment of some architectural characteristic."
+    },
+    {
+      "question": "From which academic discipline is the term fitness function borrowed?",
+      "answer": "Evolutionary computing and genetic algorithms."
+    },
+    {
+      "question": "What is an atomic fitness function?",
+      "answer": "A fitness function running in a singular context to evaluate one isolated architectural aspect."
+    },
+    {
+      "question": "What is a holistic fitness function?",
+      "answer": "A fitness function evaluating the interaction and combination of multiple architectural dimensions across a shared context."
+    },
+    {
+      "question": "What is the difference between triggered and continual fitness functions?",
+      "answer": "Triggered functions run on specific events like CI builds, while continual functions run constantly in runtime environments."
+    },
+    {
+      "question": "What is a static fitness function?",
+      "answer": "A fitness function evaluating a fixed, binary pass/fail or predefined numerical threshold."
+    },
+    {
+      "question": "What is a dynamic fitness function?",
+      "answer": "A fitness function that adjusts its thresholds based on runtime context, such as scaling load."
+    },
+    {
+      "question": "What is a temporal fitness function?",
+      "answer": "A fitness function incorporating a time component, such as monitoring license expirations or upgrade triggers."
+    },
+    {
+      "question": "How often should an engineering team formally review its fitness functions?",
+      "answer": "At least once a year."
+    },
+    {
+      "question": "What tool did Netflix build as a holistic continual operational fitness function?",
+      "answer": "Chaos Monkey and the Simian Army."
+    },
+    {
+      "question": "What framework did GitHub open-source for continual refactoring of live Git merge code?",
+      "answer": "Scientist."
+    },
+    {
+      "question": "In GitHub's Scientist framework, which code block's result is always returned to the caller?",
+      "answer": "The legacy use block."
+    },
+    {
+      "question": "What are the two operational aspects of incremental change?",
+      "answer": "Development incremental change and operational deployment incremental change."
+    },
+    {
+      "question": "How does a deployment pipeline differ from continuous integration?",
+      "answer": "A deployment pipeline models and automates the entire progression of code to production through multi-stage gates."
+    },
+    {
+      "question": "What is pipeline fan-out?",
+      "answer": "Running multiple parallel testing or deployment jobs simultaneously from a single build trigger."
+    },
+    {
+      "question": "What is an architectural quantum?",
+      "answer": "An independently deployable component with high functional cohesion including all required structural elements and data."
+    },
+    {
+      "question": "What is the quantum boundary in a microservices architecture?",
+      "answer": "The domain-bounded context, encompassing the service runtime and its dedicated database."
+    },
+    {
+      "question": "What is the architectural quantum of a monolithic application?",
+      "answer": "The entire monolithic application and its shared database."
+    },
+    {
+      "question": "Why is a Big Ball of Mud unsuited for evolutionary architecture?",
+      "answer": "It lacks modular structure, making incremental change difficult and side effects catastrophic."
+    },
+    {
+      "question": "What are the two architectural quantum sizes in a microkernel architecture?",
+      "answer": "One large quantum for the core system and smaller independent quanta for each plug-in."
+    },
+    {
+      "question": "What is the primary difference between broker and mediator event-driven architectures?",
+      "answer": "Brokers use decentralized message queues without central coordination, while mediators rely on a central workflow coordinator."
+    },
+    {
+      "question": "Why is the architectural quantum massive in an ESB-driven SOA?",
+      "answer": "Because domain concepts and workflows are smeared across enterprise layers and a shared service bus."
+    },
+    {
+      "question": "Why do microservices architectures prefer duplication over coupling?",
+      "answer": "Because sharing domain components creates inter-team coupling that restricts independent service evolution."
+    },
+    {
+      "question": "What role do service templates play in microservices architectures?",
+      "answer": "They standardize and manage technical infrastructure coupling like logging and monitoring without coupling business logic."
+    },
+    {
+      "question": "Why are service-based architectures often preferred over microservices when migrating legacy systems?",
+      "answer": "They tolerate monolithic databases, larger service granularity, and transactional contexts better."
+    },
+    {
+      "question": "What is the primary evolutionary limitation of serverless FaaS architectures?",
+      "answer": "Complex transactional coordination and workflow state are offloaded to the caller or user interface."
+    },
+    {
+      "question": "What is evolutionary database design?",
+      "answer": "The practice of evolving database schemas incrementally alongside application code using automated migrations."
+    },
+    {
+      "question": "What are the three core principles of evolving database schemas?",
+      "answer": "Database changes must be tested, versioned in source control, and applied incrementally."
+    },
+    {
+      "question": "Why do modern teams avoid writing automated undo migration scripts?",
+      "answer": "Because testing forward and backward states doubles the maintenance burden, and rolling forward is safer."
+    },
+    {
+      "question": "What is the expand/contract pattern in database refactoring?",
+      "answer": "A technique supporting breaking schema changes by maintaining both old and new structures during a transition period."
+    },
+    {
+      "question": "How do database triggers facilitate the expand/contract pattern?",
+      "answer": "They synchronize data bi-directionally between old and new columns while applications migrate."
+    },
+    {
+      "question": "Why are two-phase commit transactions compared to the strong nuclear force?",
+      "answer": "They tightly bind distributed services together, preventing independent deployment and scaling."
+    },
+    {
+      "question": "How does the practice of continually adding join tables damage database evolvability?",
+      "answer": "It creates a fossilized schema that conceals the true underlying domain abstractions."
+    },
+    {
+      "question": "What are the three steps in the mechanics of building an evolutionary architecture?",
+      "answer": "Identify affected dimensions, define fitness functions for each dimension, and automate them in deployment pipelines."
+    },
+    {
+      "question": "Why is building an evolutionary architecture easier in greenfield projects than legacy ones?",
+      "answer": "Because pipelines, modularity, and fitness functions can be established from inception without untangling legacy coupling."
+    },
+    {
+      "question": "What is immutable infrastructure?",
+      "answer": "Systems defined entirely programmatically as code, replaced rather than patched in-place when modified."
+    },
+    {
+      "question": "What is the last responsible moment in agile architecture?",
+      "answer": "The principle of safely deferring a design decision until maximum contextual information is available."
+    },
+    {
+      "question": "What is an anticorruption layer?",
+      "answer": "An adapting interface insulating domain code from dependencies and vendor-specific APIs."
+    },
+    {
+      "question": "What is a sacrificial architecture?",
+      "answer": "An architecture intentionally built to be discarded once market viability or domain understanding is proven."
+    },
+    {
+      "question": "Which famous examples used sacrificial architectures to achieve rapid market entry?",
+      "answer": "eBay (initially Perl) and Twitter (initially Ruby on Rails)."
+    },
+    {
+      "question": "What is the rule of thumb for updating libraries versus frameworks?",
+      "answer": "Update frameworks aggressively through push updates"
+    },
+    {
+      "question": "What is the Vendor King antipattern?",
+      "answer": "An architecture pathologically coupled to an ERP or COTS tool that forces business processes to conform to the vendor."
+    },
+    {
+      "question": "What is the Last 10% Trap?",
+      "answer": "When a rapid-development tool easily delivers 80-90% of requirements but cannot deliver the final 10% of critical features."
+    },
+    {
+      "question": "What does Joel Spolsky's law of leaky abstractions state?",
+      "answer": "All non-trivial abstractions, to some degree, are leaky."
+    },
+    {
+      "question": "What is the formula describing the velocity of architectural evolution?",
+      "answer": "Velocity of evolution is proportional to cycle time (v ∝ c)."
+    },
+    {
+      "question": "What is Goldilocks Governance?",
+      "answer": "Standardizing three technology stacks—small, medium, and large—calibrated to project complexity."
+    },
+    {
+      "question": "What is the reporting antipattern?",
+      "answer": "Conflating transactional systems of record with reporting, leading to schema freezes and tight database coupling."
+    },
+    {
+      "question": "How do microservices solve the reporting antipattern?",
+      "answer": "By using event streams to asynchronously populate a separate, denormalized reporting database."
+    },
+    {
+      "question": "What is irrational artifact attachment?",
+      "answer": "Reluctance to change plans or documentation due to the emotional investment of creating them (Sunk Cost Fallacy)."
+    },
+    {
+      "question": "What characterizes a cross-functional team in an evolutionary architecture?",
+      "answer": "A team containing all disciplines—developers, DBA, QA, operations, and product owner—focused on a business capability."
+    },
+    {
+      "question": "What is Amazon's Two-Pizza Team rule?",
+      "answer": "Team sizes should not exceed what two pizzas can feed, minimizing communication paths and increasing ownership."
+    },
+    {
+      "question": "What is a Consumer-Driven Contract?",
+      "answer": "A suite of automated integration tests provided by consumers to a service provider to ensure API compatibility."
+    },
+    {
+      "question": "What happens to cost per quantum when an architecture is partitioned into too many tiny quanta?",
+      "answer": "Coordination, network latency, and transactional overhead increase, driving up total cost per quantum."
+    },
+    {
+      "question": "What are the three primary pillars of the business case for evolutionary architecture?",
+      "answer": "Continuous predictability replacement, reduced operational release risk, and cycle-time market competitiveness."
+    }
+  ]
+}
